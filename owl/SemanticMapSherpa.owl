@@ -12,8 +12,9 @@
 <rdf:RDF xmlns:computable="http://knowrob.org/kb/computable.owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:knowrob="http://knowrob.org/kb/knowrob.owl#" xmlns:knowrob_u="http://knowrob.org/kb/knowrob_u.owl#" xmlns:u-map="http://knowrob.org/kb/u_map.owl#" xml:base="http://knowrob.org/kb/u_map.owl#">
 	<!--Ontologies-->
 	<owl:Ontology rdf:about="http://knowrob.org/kb/u_map.owl">
-		<owl:imports rdf:resource="package://knowrob_common/owl/knowrob.owl"/>
-		<owl:imports rdf:resource="package://knowrob_robcog/owl/knowrob_u.owl"/>
+	  <owl:imports rdf:resource="package://knowrob_common/owl/knowrob.owl"/>
+	  <!--owl:imports rdf:resource="package://knowrob_robcog/owl/knowrob_u.owl"/-->
+	  <owl:imports rdf:resource="package://sherpa_world/owl/knowrob_sherpa.owl"/>
 	</owl:Ontology>
 	<!--Property Definitions-->
 	<owl:ObjectProperty rdf:about="&knowrob;describedInMap"/>
