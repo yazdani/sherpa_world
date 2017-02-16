@@ -39,8 +39,8 @@
 		<rdf:type rdf:resource="&knowrob;Timepoint"/>
 	</owl:NamedIndividual>
 
-
-        <owl:NamedIndividual rdf:about="&log;GISPolygon_HBBA4">
+        <!--Forest Polygon 1-->
+        <owl:NamedIndividual rdf:about="&log;WoodForestGISPolygon_HBBA4">
 		<rdf:type rdf:resource="&knowrob;GISPolygon"/>
 		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal/woods_pine_1_centered_000.dae</knowrob:pathToCadModel>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoA"/>
@@ -49,7 +49,7 @@
 		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
 		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_rHH9"/>
 		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
-		<knowrob:objectActedOn rdf:resource="&log;GISPolygon_HBBA4"/>
+		<knowrob:objectActedOn rdf:resource="&log;WoodForestGISPolygon_HBBA4"/>
 	</owl:NamedIndividual>
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_rHH9">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
@@ -58,7 +58,8 @@
 	</owl:NamedIndividual>
 
 
-        <owl:NamedIndividual rdf:about="&log;GISPolygon_06BA1">
+        <!--Forest Polygon 2-->
+        <owl:NamedIndividual rdf:about="&log;PalmForestGISPolygon_06BA1">
 		<rdf:type rdf:resource="&knowrob;GISPolygon"/>
 		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal/woods_pine_2_centered_000.dae</knowrob:pathToCadModel>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoA"/>
@@ -67,12 +68,72 @@
 		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
 		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_rHK9"/>
 		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
-		<knowrob:objectActedOn rdf:resource="&log;GISPolygon_06BA1"/>
+		<knowrob:objectActedOn rdf:resource="&log;PalmForestGISPolygon_06BA1"/>
 	</owl:NamedIndividual>
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_rHK9">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion>
 		<knowrob:translation rdf:datatype="&xsd;string">-360.01398 -271.324038 121.398816</knowrob:translation>
 	</owl:NamedIndividual>
+
+
+
+        <!--Lake Polygon 1-->
+        <owl:NamedIndividual rdf:about="&log;FrozenLakeGISPolygon_07BA1">
+		<rdf:type rdf:resource="&knowrob;GISPolygon"/>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal/FrozenLake1_000.dae</knowrob:pathToCadModel>
+		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoA"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="SemanticMapPerception_5dTk">
+		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
+		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_rHT9"/>
+		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
+		<knowrob:objectActedOn rdf:resource="&log;FrozenLakeGISPolygon_07BA1"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="&u-map;Transformation_rHT9">
+		<rdf:type rdf:resource="&knowrob;Transformation"/>
+		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion>
+		<knowrob:translation rdf:datatype="&xsd;string">362.691605 -30.123423 49.847345</knowrob:translation>
+	</owl:NamedIndividual>
+
+
+        <!--Lake Polygon 2-->
+        <owl:NamedIndividual rdf:about="&log;FrozenLakeGISPolygon_08TC3">
+		<rdf:type rdf:resource="&knowrob;GISPolygon"/>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal/FrozenLake2_000.dae</knowrob:pathToCadModel>
+		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoA"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="SemanticMapPerception_6dTk">
+		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
+		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_rHT8"/>
+		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
+		<knowrob:objectActedOn rdf:resource="&log;FrozenLakeGISPolygon_08TC3"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="&u-map;Transformation_rHT8">
+		<rdf:type rdf:resource="&knowrob;Transformation"/>
+		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion>
+		<knowrob:translation rdf:datatype="&xsd;string">-489.337787 -253.107126 109.381784</knowrob:translation>
+	</owl:NamedIndividual>
+
+
+
+        <!--Neighbor Mountain-->
+        <owl:NamedIndividual rdf:about="&log;MountainGISPolygon_FD55A">
+		<rdf:type rdf:resource="&knowrob;GISPolygon"/>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal/Big_mountain_000.dae</knowrob:pathToCadModel>
+		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoA"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="SemanticMapPerception_FD56A">
+		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
+		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_Ak78"/>
+		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
+		<knowrob:objectActedOn rdf:resource="&log;MountainGISPolygon_FD55A"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="&u-map;Transformation_Ak78">
+		<rdf:type rdf:resource="&knowrob;Transformation"/>
+		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion>
+		<knowrob:translation rdf:datatype="&xsd;string">1972.860967 -1906.396206 579.362969</knowrob:translation>
+	</owl:NamedIndividual>
+
 
 </rdf:RDF>

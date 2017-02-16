@@ -207,10 +207,9 @@
 	<!--Foliage object FrozenLake_rFdy-->
 	<owl:NamedIndividual rdf:about="&log;FrozenLake_rFdy">
 		<rdf:type rdf:resource="&knowrob;FrozenLake"/>
-		<knowrob:depthOfObject rdf:datatype="&xsd;double">600.0</knowrob:depthOfObject>
-		<knowrob:widthOfObject rdf:datatype="&xsd;double">600.0</knowrob:widthOfObject>
+		<knowrob:depthOfObject rdf:datatype="&xsd;double">300.0</knowrob:depthOfObject>
+		<knowrob:widthOfObject rdf:datatype="&xsd;double">170.0</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">0.0</knowrob:heightOfObject>
-		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal/FrozenLake.dae</knowrob:pathToCadModel>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/>
 	</owl:NamedIndividual>
 	<owl:NamedIndividual rdf:about="SemanticMapPerception_72YD">
@@ -227,10 +226,9 @@
 	<!--Foliage object FrozenLake_150IF-->
 	<owl:NamedIndividual rdf:about="&log;FrozenLake_150IF">
 		<rdf:type rdf:resource="&knowrob;FrozenLake"/>
-		<knowrob:depthOfObject rdf:datatype="&xsd;double">480.0</knowrob:depthOfObject>
-		<knowrob:widthOfObject rdf:datatype="&xsd;double">480.0</knowrob:widthOfObject>
+		<knowrob:depthOfObject rdf:datatype="&xsd;double">200.0</knowrob:depthOfObject>
+		<knowrob:widthOfObject rdf:datatype="&xsd;double">140.0</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">0.0</knowrob:heightOfObject>
-		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal/FrozenLake.dae</knowrob:pathToCadModel>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/>
 	</owl:NamedIndividual>
 	<owl:NamedIndividual rdf:about="SemanticMapPerception_wj3P">
