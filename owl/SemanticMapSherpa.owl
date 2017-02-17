@@ -14,6 +14,7 @@
 	<owl:Ontology rdf:about="http://knowrob.org/kb/u_map.owl">
 		<owl:imports rdf:resource="package://knowrob_common/owl/knowrob.owl"/>
 		<owl:imports rdf:resource="package://sherpa_world/owl/knowrob_sherpa.owl"/>
+		<owl:imports rdf:resource="package://sherpa_world/owl/sherpa_robots.owl"/>
 	</owl:Ontology>
 	<!--Property Definitions-->
 	<owl:ObjectProperty rdf:about="&knowrob;describedInMap"/>
@@ -65,12 +66,7 @@
 		<knowrob:translation rdf:datatype="&xsd;string">-366.394196 581.196533 190.849991</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SherpaDonkey_ETJM-->
-	<owl:NamedIndividual rdf:about="&log;SherpaDonkey_ETJM">
-		<rdf:type rdf:resource="&knowrob;SherpaDonkey"/>
-		<knowrob:depthOfObject rdf:datatype="&xsd;double">3.008398</knowrob:depthOfObject>
-		<knowrob:widthOfObject rdf:datatype="&xsd;double">2.0</knowrob:widthOfObject>
-		<knowrob:heightOfObject rdf:datatype="&xsd;double">2.008418</knowrob:heightOfObject>
-		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal/SherpaDonkey.dae</knowrob:pathToCadModel>
+	<owl:NamedIndividual rdf:about="&knowrob;SherpaDonkey_ETJM">
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/>
 	</owl:NamedIndividual>
 	<owl:NamedIndividual rdf:about="SemanticMapPerception_lbzN">
@@ -85,12 +81,7 @@
 		<knowrob:translation rdf:datatype="&xsd;string">580.827087 -305.567047 181.226364</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SherpaWaspRed_H9cB-->
-	<owl:NamedIndividual rdf:about="&log;SherpaWaspRed_H9cB">
-		<rdf:type rdf:resource="&knowrob;SherpaWaspRed"/>
-		<knowrob:depthOfObject rdf:datatype="&xsd;double">0.509687</knowrob:depthOfObject>
-		<knowrob:widthOfObject rdf:datatype="&xsd;double">0.509687</knowrob:widthOfObject>
-		<knowrob:heightOfObject rdf:datatype="&xsd;double">0.16</knowrob:heightOfObject>
-		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal/SherpaWaspRed.dae</knowrob:pathToCadModel>
+	<owl:NamedIndividual rdf:about="&knowrob;SherpaWaspRed_H9cB">
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/>
 	</owl:NamedIndividual>
 	<owl:NamedIndividual rdf:about="SemanticMapPerception_3ARO">
@@ -105,12 +96,7 @@
 		<knowrob:translation rdf:datatype="&xsd;string">582.639893 -302.88974 181.708038</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SherpaWaspBlue_ILQN-->
-	<owl:NamedIndividual rdf:about="&log;SherpaWaspBlue_ILQN">
-		<rdf:type rdf:resource="&knowrob;SherpaWaspBlue"/>
-		<knowrob:depthOfObject rdf:datatype="&xsd;double">0.509687</knowrob:depthOfObject>
-		<knowrob:widthOfObject rdf:datatype="&xsd;double">0.509687</knowrob:widthOfObject>
-		<knowrob:heightOfObject rdf:datatype="&xsd;double">0.16</knowrob:heightOfObject>
-		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal/SherpaWaspBlue.dae</knowrob:pathToCadModel>
+	<owl:NamedIndividual rdf:about="&knowrob;SherpaWaspBlue_ILQN">
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/>
 	</owl:NamedIndividual>
 	<owl:NamedIndividual rdf:about="SemanticMapPerception_qkTL">
@@ -125,12 +111,7 @@
 		<knowrob:translation rdf:datatype="&xsd;string">580.794312 -303.690918 181.702164</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SherpaHawk_POdy-->
-	<owl:NamedIndividual rdf:about="&log;SherpaHawk_POdy">
-		<rdf:type rdf:resource="&knowrob;SherpaHawk"/>
-		<knowrob:depthOfObject rdf:datatype="&xsd;double">3.988047</knowrob:depthOfObject>
-		<knowrob:widthOfObject rdf:datatype="&xsd;double">4.151328</knowrob:widthOfObject>
-		<knowrob:heightOfObject rdf:datatype="&xsd;double">1.293164</knowrob:heightOfObject>
-		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal/SherpaHawk.dae</knowrob:pathToCadModel>
+	<owl:NamedIndividual rdf:about="&knowrob;SherpaHawk_POdy">
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/>
 	</owl:NamedIndividual>
 	<owl:NamedIndividual rdf:about="SemanticMapPerception_iD2M">

@@ -458,9 +458,9 @@
     
 
 
-    <!-- http://knowrob.org/kb/knowrob.owl#SherpaDonkey_j39sgVdoSzeR -->
+    <!-- http://knowrob.org/kb/knowrob.owl#SherpaDonkey_ETJM -->
 
-    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaDonkey_j39sgVdoSzeR">
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaDonkey_ETJM">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaDonkey"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#ElectricalMotor_azUH3Jrez3op"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#LocalizationComponent_at23iHaop7Wg"/>
@@ -483,9 +483,9 @@
     
 
 
-    <!-- http://knowrob.org/kb/knowrob.owl#SherpaHawk_hRf5Sd8Rds3w -->
+    <!-- http://knowrob.org/kb/knowrob.owl#SherpaHawk_POdy -->
 
-    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaHawk_hRf5Sd8Rds3w">
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaHawk_POdy">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaHawk"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#AirPropeller_at25DepU28Tz"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#Camera_a5tREgduI8wt"/>
@@ -503,9 +503,9 @@
     
 
 
-    <!-- http://knowrob.org/kb/knowrob.owl#SherpaWaspBlue_Trs453SFpozs -->
+    <!-- http://knowrob.org/kb/knowrob.owl#SherpaWaspBlue_ILQN -->
 
-    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaWaspBlue_Trs453SFpozs">
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaWaspBlue_ILQN">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaWaspBlue"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#AirPropeller_bSdlkE6thUkl"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#Battery_bz34SgkgUiab"/>
@@ -531,9 +531,9 @@
     
 
 
-    <!-- http://knowrob.org/kb/knowrob.owl#SherpaWaspRed_TD34sdoph5Tc -->
+    <!-- http://knowrob.org/kb/knowrob.owl#SherpaWaspRed_H9cB -->
 
-    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaWaspRed_TD34sdoph5Tc">
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaWaspRed_H9cB">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaWaspRed"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#AirPropeller_cslWeopDf87r"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#Battery_au36TsDGweo3"/>
