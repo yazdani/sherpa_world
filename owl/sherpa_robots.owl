@@ -39,6 +39,12 @@
     
 
 
+    <!-- http://qudt.org/vocab/unit#Volt -->
+
+    <rdfs:Datatype rdf:about="http://qudt.org/vocab/unit#Volt"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -67,6 +73,18 @@
     
 
 
+    <!-- http://knowrob.org/kb/knowrob.owl#batteryStandard -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#batteryStandard"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#inputVoltage -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#inputVoltage"/>
+    
+
+
     <!-- http://knowrob.org/kb/knowrob.owl#maximumSpeed -->
 
     <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#maximumSpeed"/>
@@ -87,6 +105,12 @@
     <!-- http://knowrob.org/kb/knowrob.owl#AirPropeller -->
 
     <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#AirPropeller"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#Battery -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#Battery"/>
     
 
 
@@ -341,6 +365,14 @@
     
 
 
+    <!-- http://knowrob.org/kb/knowrob.owl#SherpaBoxConnector_he64Oir56Sdu -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaBoxConnector_he64Oir56Sdu">
+        <rdf:type rdf:resource="http://knowrob.org/kb/sherpa.owl#SherpaBoxConnector"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://knowrob.org/kb/knowrob.owl#SherpaBox_7gFrt4ls8ZE5t -->
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaBox_7gFrt4ls8ZE5t">
@@ -365,6 +397,7 @@
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#ElectricalMotor_azUH3Jrez3op"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#LocalizationComponent_at23iHaop7Wg"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#NavigationComponent_az23MLKD23oJ"/>
+        <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaBoxConnector_he64Oir56Sdu"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaBox_7gFrt4ls8ZE5t"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaDonkeyArm_gfkj6tSDF3oS"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#Wheel_6sduPO37Tres"/>
@@ -372,7 +405,6 @@
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#Wheel_o7DT3zsgKJe3"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#Wheel_t3tIOd63Gher"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#WirelessLan_a634uhWODh2u"/>
-        <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaBoxConnector_he64Oir56Sdu"/>
         <knowrob:maximumSpeed rdf:datatype="http://qudt.org/vocab/unit#MeterPerSecond">3.2</knowrob:maximumSpeed>
     </owl:NamedIndividual>
     
@@ -420,7 +452,16 @@
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#NavigationComponent_ciuw56SImsoi"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaWaspBattery_ak243LwZUas"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#WirelessLan_c5wEok34lsHa"/>
+        <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/sherpa_robots.owl#Battery_bz34SgkgUiab"/>
         <knowrob:maximumSpeed rdf:datatype="http://qudt.org/vocab/unit#MeterPerSecond">10.0</knowrob:maximumSpeed>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#SherpaWaspConnector_a6dtGzw23Iua -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaWaspConnector_a6dtGzw23Iua">
+        <rdf:type rdf:resource="http://knowrob.org/kb/sherpa.owl#SherpaWaspConnector"/>
     </owl:NamedIndividual>
     
 
@@ -436,6 +477,7 @@
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#NavigationComponent_doue34PosdAs"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaWaspBattery_ba56DFpoASwe"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#WirelessLan_du5rSK98wunk"/>
+        <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/sherpa_robots.owl#Battery_au36TsDGweo3"/>
         <knowrob:maximumSpeed rdf:datatype="http://qudt.org/vocab/unit#MeterPerSecond">10.0</knowrob:maximumSpeed>
     </owl:NamedIndividual>
     
@@ -505,18 +547,22 @@
     
 
 
-    <!-- http://knowrob.org/kb/knowrob.owl#SherpaBoxConnector_he64Oir56Sdu -->
+    <!-- http://knowrob.org/kb/sherpa_robots.owl#Battery_au36TsDGweo3 -->
 
-    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaBoxConnector_he64Oir56Sdu">
-        <rdf:type rdf:resource="http://knowrob.org/kb/sherpa.owl#SherpaBoxConnector"/>
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/sherpa_robots.owl#Battery_au36TsDGweo3">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#Battery"/>
+        <knowrob:batteryStandard rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SHERPA</knowrob:batteryStandard>
+        <knowrob:inputVoltage rdf:datatype="http://qudt.org/vocab/unit#Volt">2.5</knowrob:inputVoltage>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://knowrob.org/kb/knowrob.owl#SherpaWaspConnector_a6dtGzw23Iua -->
+    <!-- http://knowrob.org/kb/sherpa_robots.owl#Battery_bz34SgkgUiab -->
 
-    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaWaspConnector_a6dtGzw23Iua">
-        <rdf:type rdf:resource="http://knowrob.org/kb/sherpa.owl#SherpaWaspConnector"/>
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/sherpa_robots.owl#Battery_bz34SgkgUiab">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#Battery"/>
+        <knowrob:batteryStandard rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SHERPA</knowrob:batteryStandard>
+        <knowrob:inputVoltage rdf:datatype="http://qudt.org/vocab/unit#Volt">2.5</knowrob:inputVoltage>
     </owl:NamedIndividual>
 </rdf:RDF>
 
