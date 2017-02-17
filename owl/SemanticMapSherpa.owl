@@ -73,7 +73,7 @@
 		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
 		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_MMAU"/>
 		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
-		<knowrob:objectActedOn rdf:resource="&log;SherpaDonkey_ETJM"/>
+		<knowrob:objectActedOn rdf:resource="&knowrob;SherpaDonkey_ETJM"/>
 	</owl:NamedIndividual>
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_MMAU">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
@@ -88,7 +88,7 @@
 		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
 		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_Cry0"/>
 		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
-		<knowrob:objectActedOn rdf:resource="&log;SherpaWaspRed_H9cB"/>
+		<knowrob:objectActedOn rdf:resource="&knowrob;SherpaWaspRed_H9cB"/>
 	</owl:NamedIndividual>
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_Cry0">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
@@ -103,7 +103,7 @@
 		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
 		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_dN3v"/>
 		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
-		<knowrob:objectActedOn rdf:resource="&log;SherpaWaspBlue_ILQN"/>
+		<knowrob:objectActedOn rdf:resource="&knowrob;SherpaWaspBlue_ILQN"/>
 	</owl:NamedIndividual>
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_dN3v">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
@@ -118,7 +118,7 @@
 		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
 		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_q8Vm"/>
 		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
-		<knowrob:objectActedOn rdf:resource="&log;SherpaHawk_POdy"/>
+		<knowrob:objectActedOn rdf:resource="&knowrob;SherpaHawk_POdy"/>
 	</owl:NamedIndividual>
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_q8Vm">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
