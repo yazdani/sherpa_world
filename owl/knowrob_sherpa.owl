@@ -98,11 +98,11 @@
     
 
 
-    <!-- http://knowrob.org/kb/sherpa.owl#networkQuality -->
+    <!-- http://knowrob.org/kb/knowrob.owl#networkQuality -->
 
-    <owl:ObjectProperty rdf:about="http://knowrob.org/kb/sherpa.owl#networkQuality">
+    <owl:ObjectProperty rdf:about="http://knowrob.org/kb/knowrob.owl#networkQuality">
         <rdfs:domain rdf:resource="http://knowrob.org/kb/knowrob.owl#SendingAPicture"/>
-        <rdfs:range rdf:resource="http://knowrob.org/kb/sherpa.owl#NetworkQuality"/>
+        <rdfs:range rdf:resource="http://knowrob.org/kb/knowrob.owl#NetworkQuality"/>
     </owl:ObjectProperty>
     
 
@@ -547,7 +547,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#subComponent"/>
-                <owl:someValuesFrom rdf:resource="http://knowrob.org/kb/sherpa.owl#SherpaWaspConnector"/>
+                <owl:someValuesFrom rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaWaspConnector"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -648,7 +648,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#subComponent"/>
-                <owl:someValuesFrom rdf:resource="http://knowrob.org/kb/sherpa.owl#SherpaBoxConnector"/>
+                <owl:someValuesFrom rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaBoxConnector"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -948,23 +948,23 @@
     
 
 
-    <!-- http://knowrob.org/kb/sherpa.owl#NetworkQuality -->
+    <!-- http://knowrob.org/kb/knowrob.owl#NetworkQuality -->
 
-    <owl:Class rdf:about="http://knowrob.org/kb/sherpa.owl#NetworkQuality"/>
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#NetworkQuality"/>
     
 
 
-    <!-- http://knowrob.org/kb/sherpa.owl#SendingAHighResPicture -->
+    <!-- http://knowrob.org/kb/knowrob.owl#SendingAHighResPicture -->
 
-    <owl:Class rdf:about="http://knowrob.org/kb/sherpa.owl#SendingAHighResPicture">
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SendingAHighResPicture">
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#SendingAPicture"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://knowrob.org/kb/knowrob.owl#performedBy"/>
                 <owl:allValuesFrom>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://knowrob.org/kb/sherpa.owl#networkQuality"/>
-                        <owl:hasValue rdf:resource="http://knowrob.org/kb/sherpa.owl#NetworkQualityGood"/>
+                        <owl:onProperty rdf:resource="http://knowrob.org/kb/knowrob.owl#networkQuality"/>
+                        <owl:hasValue rdf:resource="http://knowrob.org/kb/knowrob.owl#NetworkQualityGood"/>
                     </owl:Restriction>
                 </owl:allValuesFrom>
             </owl:Restriction>
@@ -973,9 +973,9 @@
     
 
 
-    <!-- http://knowrob.org/kb/sherpa.owl#SendingALowResPicture -->
+    <!-- http://knowrob.org/kb/knowrob.owl#SendingALowResPicture -->
 
-    <owl:Class rdf:about="http://knowrob.org/kb/sherpa.owl#SendingALowResPicture">
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SendingALowResPicture">
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#SendingAPicture"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -984,12 +984,12 @@
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://knowrob.org/kb/sherpa.owl#networkQuality"/>
-                                <owl:hasValue rdf:resource="http://knowrob.org/kb/sherpa.owl#NetworkQualityBad"/>
+                                <owl:onProperty rdf:resource="http://knowrob.org/kb/knowrob.owl#networkQuality"/>
+                                <owl:hasValue rdf:resource="http://knowrob.org/kb/knowrob.owl#NetworkQualityBad"/>
                             </owl:Restriction>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://knowrob.org/kb/sherpa.owl#networkQuality"/>
-                                <owl:hasValue rdf:resource="http://knowrob.org/kb/sherpa.owl#NetworkQualityGood"/>
+                                <owl:onProperty rdf:resource="http://knowrob.org/kb/knowrob.owl#networkQuality"/>
+                                <owl:hasValue rdf:resource="http://knowrob.org/kb/knowrob.owl#NetworkQualityGood"/>
                             </owl:Restriction>
                         </owl:unionOf>
                     </owl:Class>
@@ -1000,41 +1000,41 @@
     
 
 
-    <!-- http://knowrob.org/kb/sherpa.owl#SherpaBoxConnector -->
+    <!-- http://knowrob.org/kb/knowrob.owl#SherpaBoxConnector -->
 
-    <owl:Class rdf:about="http://knowrob.org/kb/sherpa.owl#SherpaBoxConnector">
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaBoxConnector">
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob_common.owl#Connector"/>
     </owl:Class>
     
 
 
-    <!-- http://knowrob.org/kb/sherpa.owl#SherpaDonkeyController -->
+    <!-- http://knowrob.org/kb/knowrob.owl#SherpaDonkeyController -->
 
-    <owl:Class rdf:about="http://knowrob.org/kb/sherpa.owl#SherpaDonkeyController">
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaDonkeyController">
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#NavigationComponent"/>
     </owl:Class>
     
 
 
-    <!-- http://knowrob.org/kb/sherpa.owl#SherpaDroneController -->
+    <!-- http://knowrob.org/kb/knowrob.owl#SherpaDroneController -->
 
-    <owl:Class rdf:about="http://knowrob.org/kb/sherpa.owl#SherpaDroneController">
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaDroneController">
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#NavigationComponent"/>
     </owl:Class>
     
 
 
-    <!-- http://knowrob.org/kb/sherpa.owl#SherpaWaspConnector -->
+    <!-- http://knowrob.org/kb/knowrob.owl#SherpaWaspConnector -->
 
-    <owl:Class rdf:about="http://knowrob.org/kb/sherpa.owl#SherpaWaspConnector">
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaWaspConnector">
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob_common.owl#Connector"/>
     </owl:Class>
     
 
 
-    <!-- http://knowrob.org/kb/sherpa.owl#UnrealLocalizationComponent -->
+    <!-- http://knowrob.org/kb/knowrob.owl#UnrealLocalizationComponent -->
 
-    <owl:Class rdf:about="http://knowrob.org/kb/sherpa.owl#UnrealLocalizationComponent">
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#UnrealLocalizationComponent">
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#LocalizationComponent"/>
     </owl:Class>
     
@@ -1171,18 +1171,18 @@
     
 
 
-    <!-- http://knowrob.org/kb/sherpa.owl#NetworkQualityBad -->
+    <!-- http://knowrob.org/kb/knowrob.owl#NetworkQualityBad -->
 
-    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/sherpa.owl#NetworkQualityBad">
-        <rdf:type rdf:resource="http://knowrob.org/kb/sherpa.owl#NetworkQuality"/>
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#NetworkQualityBad">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#NetworkQuality"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://knowrob.org/kb/sherpa.owl#NetworkQualityGood -->
+    <!-- http://knowrob.org/kb/knowrob.owl#NetworkQualityGood -->
 
-    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/sherpa.owl#NetworkQualityGood">
-        <rdf:type rdf:resource="http://knowrob.org/kb/sherpa.owl#NetworkQuality"/>
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#NetworkQualityGood">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#NetworkQuality"/>
     </owl:NamedIndividual>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#intersectionOf"/>
