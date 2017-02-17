@@ -345,7 +345,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaBox_7gFrt4ls8ZE5t">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaBox"/>
-        <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/sherpa_robots.owl#SherpaWaspConnector_a6dtGzw23Iua"/>
+        <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaWaspConnector_a6dtGzw23Iua"/>
     </owl:NamedIndividual>
     
 
@@ -372,7 +372,7 @@
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#Wheel_o7DT3zsgKJe3"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#Wheel_t3tIOd63Gher"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#WirelessLan_a634uhWODh2u"/>
-        <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/sherpa_robots.owl#SherpaBoxConnector_he64Oir56Sdu"/>
+        <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaBoxConnector_he64Oir56Sdu"/>
         <knowrob:maximumSpeed rdf:datatype="http://qudt.org/vocab/unit#MeterPerSecond">3.2</knowrob:maximumSpeed>
     </owl:NamedIndividual>
     
@@ -505,17 +505,17 @@
     
 
 
-    <!-- http://knowrob.org/kb/sherpa_robots.owl#SherpaBoxConnector_he64Oir56Sdu -->
+    <!-- http://knowrob.org/kb/knowrob.owl#SherpaBoxConnector_he64Oir56Sdu -->
 
-    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/sherpa_robots.owl#SherpaBoxConnector_he64Oir56Sdu">
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaBoxConnector_he64Oir56Sdu">
         <rdf:type rdf:resource="http://knowrob.org/kb/sherpa.owl#SherpaBoxConnector"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://knowrob.org/kb/sherpa_robots.owl#SherpaWaspConnector_a6dtGzw23Iua -->
+    <!-- http://knowrob.org/kb/knowrob.owl#SherpaWaspConnector_a6dtGzw23Iua -->
 
-    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/sherpa_robots.owl#SherpaWaspConnector_a6dtGzw23Iua">
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaWaspConnector_a6dtGzw23Iua">
         <rdf:type rdf:resource="http://knowrob.org/kb/sherpa.owl#SherpaWaspConnector"/>
     </owl:NamedIndividual>
 </rdf:RDF>
