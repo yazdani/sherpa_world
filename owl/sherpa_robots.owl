@@ -79,6 +79,18 @@
     
 
 
+    <!-- http://knowrob.org/kb/knowrob.owl#depthOfObject -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#depthOfObject"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#heightOfObject -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#heightOfObject"/>
+    
+
+
     <!-- http://knowrob.org/kb/knowrob.owl#inputVoltage -->
 
     <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#inputVoltage"/>
@@ -88,6 +100,24 @@
     <!-- http://knowrob.org/kb/knowrob.owl#maximumSpeed -->
 
     <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#maximumSpeed"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#pathToCadModel -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#pathToCadModel"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#widthOfObject -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#widthOfObject"/>
+    
+
+
+    <!-- http://knowrob.org/kb/srdl2-comp.owl#urdfName -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/srdl2-comp.owl#urdfName"/>
     
 
 
@@ -138,6 +168,12 @@
     
 
 
+    <!-- http://knowrob.org/kb/knowrob.owl#SherpaBoxConnector -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaBoxConnector"/>
+    
+
+
     <!-- http://knowrob.org/kb/knowrob.owl#SherpaDonkey -->
 
     <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaDonkey"/>
@@ -147,36 +183,6 @@
     <!-- http://knowrob.org/kb/knowrob.owl#SherpaDonkeyArm -->
 
     <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaDonkeyArm"/>
-    
-
-
-    <!-- http://knowrob.org/kb/knowrob.owl#SherpaHawk -->
-
-    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaHawk"/>
-    
-
-
-    <!-- http://knowrob.org/kb/knowrob.owl#SherpaWaspBlue -->
-
-    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaWaspBlue"/>
-    
-
-
-    <!-- http://knowrob.org/kb/knowrob.owl#SherpaWaspRed -->
-
-    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaWaspRed"/>
-    
-
-
-    <!-- http://knowrob.org/kb/knowrob.owl#Wheel -->
-
-    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#Wheel"/>
-    
-
-
-    <!-- http://knowrob.org/kb/knowrob.owl#SherpaBoxConnector -->
-
-    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaBoxConnector"/>
     
 
 
@@ -192,15 +198,39 @@
     
 
 
+    <!-- http://knowrob.org/kb/knowrob.owl#SherpaHawk -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaHawk"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#SherpaWaspBlue -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaWaspBlue"/>
+    
+
+
     <!-- http://knowrob.org/kb/knowrob.owl#SherpaWaspConnector -->
 
     <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaWaspConnector"/>
     
 
 
+    <!-- http://knowrob.org/kb/knowrob.owl#SherpaWaspRed -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaWaspRed"/>
+    
+
+
     <!-- http://knowrob.org/kb/knowrob.owl#UnrealLocalizationComponent -->
 
     <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#UnrealLocalizationComponent"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#Wheel -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#Wheel"/>
     
 
 
@@ -259,6 +289,26 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#AirPropeller_cslWeopDf87r">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#AirPropeller"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#Battery_au36TsDGweo3 -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#Battery_au36TsDGweo3">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#Battery"/>
+        <knowrob:batteryStandard rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SHERPA</knowrob:batteryStandard>
+        <knowrob:inputVoltage rdf:datatype="http://qudt.org/vocab/unit#Volt">2.5</knowrob:inputVoltage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#Battery_bz34SgkgUiab -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#Battery_bz34SgkgUiab">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#Battery"/>
+        <knowrob:batteryStandard rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SHERPA</knowrob:batteryStandard>
+        <knowrob:inputVoltage rdf:datatype="http://qudt.org/vocab/unit#Volt">2.5</knowrob:inputVoltage>
     </owl:NamedIndividual>
     
 
@@ -423,7 +473,12 @@
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#Wheel_o7DT3zsgKJe3"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#Wheel_t3tIOd63Gher"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#WirelessLan_a634uhWODh2u"/>
+        <knowrob:depthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.008398</knowrob:depthOfObject>
+        <knowrob:heightOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.008418</knowrob:heightOfObject>
         <knowrob:maximumSpeed rdf:datatype="http://qudt.org/vocab/unit#MeterPerSecond">3.2</knowrob:maximumSpeed>
+        <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#float">package://sim/unreal/SherpaDonkey.dae</knowrob:pathToCadModel>
+        <knowrob:widthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</knowrob:widthOfObject>
+        <srdl2-comp:urdfName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/donkey</srdl2-comp:urdfName>
     </owl:NamedIndividual>
     
 
@@ -438,7 +493,12 @@
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#LocalizationComponent_bt23OdJElwab"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#NavigationComponent_bkstz56LSuhW"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#WirelessLan_bt27ZSowhj4a"/>
+        <knowrob:depthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.988047</knowrob:depthOfObject>
+        <knowrob:heightOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.293164</knowrob:heightOfObject>
         <knowrob:maximumSpeed rdf:datatype="http://qudt.org/vocab/unit#MeterPerSecond">25.0</knowrob:maximumSpeed>
+        <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://sim/unreal/SherpaHawk.dae</knowrob:pathToCadModel>
+        <knowrob:widthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.151328</knowrob:widthOfObject>
+        <srdl2-comp:urdfName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/hawk</srdl2-comp:urdfName>
     </owl:NamedIndividual>
     
 
@@ -448,13 +508,17 @@
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaWaspBlue_Trs453SFpozs">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaWaspBlue"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#AirPropeller_bSdlkE6thUkl"/>
+        <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#Battery_bz34SgkgUiab"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#Camera_bt67SDwl8Uht"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#ElectricalMotor_ca4eLwUZ19Tz"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#LocalizationComponent_ctaojwl45TXl"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#NavigationComponent_ciuw56SImsoi"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#WirelessLan_c5wEok34lsHa"/>
-        <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#Battery_bz34SgkgUiab"/>
-        <knowrob:maximumSpeed rdf:datatype="http://qudt.org/vocab/unit#MeterPerSecond">10.0</knowrob:maximumSpeed>
+        <knowrob:depthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.509687</knowrob:depthOfObject>
+        <knowrob:heightOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16</knowrob:heightOfObject>
+        <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://sim/unreal/SherpaWaspBlue.dae</knowrob:pathToCadModel>
+        <knowrob:widthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.509687</knowrob:widthOfObject>
+        <srdl2-comp:urdfName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/blue_wasp/base_link</srdl2-comp:urdfName>
     </owl:NamedIndividual>
     
 
@@ -472,13 +536,18 @@
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaWaspRed_TD34sdoph5Tc">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaWaspRed"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#AirPropeller_cslWeopDf87r"/>
+        <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#Battery_au36TsDGweo3"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#Beacon_aiWrelkW2poi"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#ElectricalMotor_djetA36ZewlS"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#LocalizationComponent_duqwe87XLke4E"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#NavigationComponent_doue34PosdAs"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#WirelessLan_du5rSK98wunk"/>
-        <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#Battery_au36TsDGweo3"/>
+        <knowrob:depthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.509687</knowrob:depthOfObject>
+        <knowrob:heightOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16</knowrob:heightOfObject>
         <knowrob:maximumSpeed rdf:datatype="http://qudt.org/vocab/unit#MeterPerSecond">10.0</knowrob:maximumSpeed>
+        <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://sim/unreal/SherpaWaspRed.dae</knowrob:pathToCadModel>
+        <knowrob:widthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.509687</knowrob:widthOfObject>
+        <srdl2-comp:urdfName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/red_wasp/base_link</srdl2-comp:urdfName>
     </owl:NamedIndividual>
     
 
@@ -543,26 +612,6 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#WirelessLan_du5rSK98wunk">
         <rdf:type rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#WirelessLan"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://knowrob.org/kb/knowrob.owl#Battery_au36TsDGweo3 -->
-
-    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#Battery_au36TsDGweo3">
-        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#Battery"/>
-        <knowrob:batteryStandard rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SHERPA</knowrob:batteryStandard>
-        <knowrob:inputVoltage rdf:datatype="http://qudt.org/vocab/unit#Volt">2.5</knowrob:inputVoltage>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://knowrob.org/kb/knowrob.owl#Battery_bz34SgkgUiab -->
-
-    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#Battery_bz34SgkgUiab">
-        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#Battery"/>
-        <knowrob:batteryStandard rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SHERPA</knowrob:batteryStandard>
-        <knowrob:inputVoltage rdf:datatype="http://qudt.org/vocab/unit#Volt">2.5</knowrob:inputVoltage>
     </owl:NamedIndividual>
 </rdf:RDF>
 
