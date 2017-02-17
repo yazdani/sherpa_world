@@ -785,12 +785,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#subComponent"/>
-                <owl:someValuesFrom rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaWaspBattery"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#subComponent"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
@@ -814,14 +808,6 @@
                 <owl:hasValue rdf:datatype="http://qudt.org/vocab/unit#MeterPerSecond">10.0</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://knowrob.org/kb/knowrob.owl#SherpaWaspBattery -->
-
-    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaWaspBattery">
-        <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#RechargeableBattery"/>
     </owl:Class>
     
 
@@ -1022,10 +1008,34 @@
     
 
 
+    <!-- http://knowrob.org/kb/sherpa.owl#SherpaDonkeyController -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/sherpa.owl#SherpaDonkeyController">
+        <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#NavigationComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://knowrob.org/kb/sherpa.owl#SherpaDroneController -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/sherpa.owl#SherpaDroneController">
+        <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#NavigationComponent"/>
+    </owl:Class>
+    
+
+
     <!-- http://knowrob.org/kb/sherpa.owl#SherpaWaspConnector -->
 
     <owl:Class rdf:about="http://knowrob.org/kb/sherpa.owl#SherpaWaspConnector">
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob_common.owl#Connector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://knowrob.org/kb/sherpa.owl#UnrealLocalizationComponent -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/sherpa.owl#UnrealLocalizationComponent">
+        <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#LocalizationComponent"/>
     </owl:Class>
     
 
@@ -1129,6 +1139,18 @@
     <!-- http://knowrob.org/kb/srdl2-comp.owl#Component -->
 
     <owl:Class rdf:about="http://knowrob.org/kb/srdl2-comp.owl#Component"/>
+    
+
+
+    <!-- http://knowrob.org/kb/srdl2-comp.owl#LocalizationComponent -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/srdl2-comp.owl#LocalizationComponent"/>
+    
+
+
+    <!-- http://knowrob.org/kb/srdl2-comp.owl#NavigationComponent -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/srdl2-comp.owl#NavigationComponent"/>
     
 
 
