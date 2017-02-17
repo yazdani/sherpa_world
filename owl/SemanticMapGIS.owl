@@ -44,6 +44,9 @@
 		<rdf:type rdf:resource="&knowrob;GISPolygon"/>
 		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal/woods_pine_1_centered_000.dae</knowrob:pathToCadModel>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoA"/>
+                <knowrob:depthOfObject rdf:datatype="&xsd;double">160.66008</knowrob:depthOfObject>
+		<knowrob:widthOfObject rdf:datatype="&xsd;double">401.54478</knowrob:widthOfObject>
+		<knowrob:heightOfObject rdf:datatype="&xsd;double">151.69938</knowrob:heightOfObject>
 	</owl:NamedIndividual>
 	<owl:NamedIndividual rdf:about="SemanticMapPerception_5dHt">
 		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
@@ -63,6 +66,9 @@
 		<rdf:type rdf:resource="&knowrob;GISPolygon"/>
 		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal/woods_pine_2_centered_000.dae</knowrob:pathToCadModel>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoA"/>
+                <knowrob:depthOfObject rdf:datatype="&xsd;double">120.49506</knowrob:depthOfObject>
+		<knowrob:widthOfObject rdf:datatype="&xsd;double">401.54478</knowrob:widthOfObject>
+		<knowrob:heightOfObject rdf:datatype="&xsd;double">174.04842</knowrob:heightOfObject>
 	</owl:NamedIndividual>
 	<owl:NamedIndividual rdf:about="SemanticMapPerception_5dHk">
 		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
@@ -83,6 +89,9 @@
 		<rdf:type rdf:resource="&knowrob;GISPolygon"/>
 		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal/FrozenLake1_000.dae</knowrob:pathToCadModel>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoA"/>
+		<knowrob:depthOfObject rdf:datatype="&xsd;double">427.63623</knowrob:depthOfObject>
+		<knowrob:widthOfObject rdf:datatype="&xsd;double">401.38665</knowrob:widthOfObject>
+		<knowrob:heightOfObject rdf:datatype="&xsd;double">347.20077</knowrob:heightOfObject>
 	</owl:NamedIndividual>
 	<owl:NamedIndividual rdf:about="SemanticMapPerception_5dTk">
 		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
@@ -102,6 +111,9 @@
 		<rdf:type rdf:resource="&knowrob;GISPolygon"/>
 		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal/FrozenLake2_000.dae</knowrob:pathToCadModel>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoA"/>
+                <knowrob:depthOfObject rdf:datatype="&xsd;double">203.30247</knowrob:depthOfObject>
+		<knowrob:widthOfObject rdf:datatype="&xsd;double">401,38665</knowrob:widthOfObject>
+		<knowrob:heightOfObject rdf:datatype="&xsd;double">223.38498</knowrob:heightOfObject>
 	</owl:NamedIndividual>
 	<owl:NamedIndividual rdf:about="SemanticMapPerception_6dTk">
 		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
