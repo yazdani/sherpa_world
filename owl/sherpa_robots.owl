@@ -15,8 +15,8 @@
      xmlns:knowrob="http://knowrob.org/kb/knowrob.owl#">
     <owl:Ontology rdf:about="http://knowrob.org/kb/sherpa_robots.owl">
         <owl:imports rdf:resource="package://knowrob_common/owl/knowrob.owl"/>
-        <owl:imports rdf:resource="package://sherpa_world/owl/knowrob_sherpa.owl"/>
         <owl:imports rdf:resource="package://knowrob_srdl/owl/srdl2-comp.owl"/>
+        <owl:imports rdf:resource="package://sherpa_world/owl/knowrob_sherpa.owl"/>
         <owl:imports rdf:resource="package://knowrob_srdl/owl/srdl2-cap.owl"/>
     </owl:Ontology>
     
@@ -201,6 +201,12 @@
     <!-- http://knowrob.org/kb/knowrob.owl#SherpaHawk -->
 
     <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaHawk"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#SherpaNetworkDevice -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaNetworkDevice"/>
     
 
 
@@ -587,7 +593,7 @@
     <!-- http://knowrob.org/kb/knowrob.owl#WirelessLan_a634uhWODh2u -->
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#WirelessLan_a634uhWODh2u">
-        <rdf:type rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#WirelessLan"/>
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaNetworkDevice"/>
     </owl:NamedIndividual>
     
 
@@ -595,7 +601,7 @@
     <!-- http://knowrob.org/kb/knowrob.owl#WirelessLan_bt27ZSowhj4a -->
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#WirelessLan_bt27ZSowhj4a">
-        <rdf:type rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#WirelessLan"/>
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaNetworkDevice"/>
     </owl:NamedIndividual>
     
 
@@ -603,7 +609,7 @@
     <!-- http://knowrob.org/kb/knowrob.owl#WirelessLan_c5wEok34lsHa -->
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#WirelessLan_c5wEok34lsHa">
-        <rdf:type rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#WirelessLan"/>
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaNetworkDevice"/>
     </owl:NamedIndividual>
     
 
@@ -611,7 +617,7 @@
     <!-- http://knowrob.org/kb/knowrob.owl#WirelessLan_du5rSK98wunk -->
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#WirelessLan_du5rSK98wunk">
-        <rdf:type rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#WirelessLan"/>
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaNetworkDevice"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
