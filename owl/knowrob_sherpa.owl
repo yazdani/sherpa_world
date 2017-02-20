@@ -32,25 +32,18 @@
 
     <!-- http://knowrob.org/kb/computable.owl#cache -->
 
-    <owl:AnnotationProperty rdf:about="http://knowrob.org/kb/computable.owl#cache"/>
-    
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/computable.owl#cache"/>
 
 
     <!-- http://knowrob.org/kb/computable.owl#command -->
 
-    <owl:AnnotationProperty rdf:about="http://knowrob.org/kb/computable.owl#command"/>
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/computable.owl#command"/>
     
 
 
     <!-- http://knowrob.org/kb/computable.owl#target -->
 
-    <owl:AnnotationProperty rdf:about="http://knowrob.org/kb/computable.owl#target"/>
-    
-
-
-    <!-- http://www.w3.org/2002/07/owl#Class -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:ObjectProperty rdf:about="http://knowrob.org/kb/computable.owl#target"/>
     
 
 
@@ -102,7 +95,7 @@
 
     <!-- http://knowrob.org/kb/knowrob.owl#massOfObject -->
 
-    <owl:ObjectProperty rdf:about="http://knowrob.org/kb/knowrob.owl#massOfObject"/>
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#massOfObject"/>
     
 
 
