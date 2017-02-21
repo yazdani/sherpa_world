@@ -9,11 +9,13 @@
 	<!ENTITY log "http://knowrob.org/kb/unreal_log.owl#">
 	<!ENTITY u-map "http://knowrob.org/kb/u_map.owl#">
 ]>
-<rdf:RDF xmlns:computable="http://knowrob.org/kb/computable.owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:knowrob="http://knowrob.org/kb/knowrob.owl#" xmlns:knowrob_u="http://knowrob.org/kb/knowrob_u.owl#" xmlns:u-map="http://knowrob.org/kb/u_map.owl#" xml:base="http://knowrob.org/kb/u_map.owl#">
+<rdf:RDF xmlns:computable="http://knowrob.org/kb/computable.owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:knowrob="http://knowrob.org/kb/knowrob.owl#" xmlns:knowrob_u="http://knowrob.org/kb/knowrob_u.owl#" xmlns:u-map="http://knowrob.org/kb/u_map.owl#" xmlns:srdl2-comp="http://knowrob.org/kb/srdl2-comp.owl#" xml:base="http://knowrob.org/kb/u_map.owl#">
 	<!--Ontologies-->
 	<owl:Ontology rdf:about="http://knowrob.org/kb/u_map.owl">
 		<owl:imports rdf:resource="package://knowrob_common/owl/knowrob.owl"/>
-		<owl:imports rdf:resource="package://sherpa_world/owl/knowrob_sherpa.owl"/>
+                <owl:imports rdf:resource="package://knowrob_srdl/owl/srdl2-comp.owl"/>
+                <owl:imports rdf:resource="package://sherpa_world/owl/knowrob_sherpa.owl"/>
+                <owl:imports rdf:resource="package://knowrob_srdl/owl/srdl2-cap.owl"/>
 	</owl:Ontology>
 	<!--Property Definitions-->
 	<owl:ObjectProperty rdf:about="&knowrob;describedInMap"/>
@@ -43,6 +45,7 @@
         <owl:NamedIndividual rdf:about="&log;WoodForestGISPolygon_HBBA4">
 		<rdf:type rdf:resource="&knowrob;GISPolygon"/>
 		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal/woods_pine_1_centered_000.dae</knowrob:pathToCadModel>
+                <srdl2-comp:mesh_scale rdf:datatype="&xsd;string">48.4 48.4 48.4</srdl2-comp:mesh_scale>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoA"/>
                 <knowrob:depthOfObject rdf:datatype="&xsd;double">160.66008</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">401.54478</knowrob:widthOfObject>
@@ -65,6 +68,7 @@
         <owl:NamedIndividual rdf:about="&log;PalmForestGISPolygon_06BA1">
 		<rdf:type rdf:resource="&knowrob;GISPolygon"/>
 		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal/woods_pine_2_centered_000.dae</knowrob:pathToCadModel>
+                <srdl2-comp:mesh_scale rdf:datatype="&xsd;string">48.4 48.4 48.4</srdl2-comp:mesh_scale>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoA"/>
                 <knowrob:depthOfObject rdf:datatype="&xsd;double">120.49506</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">401.54478</knowrob:widthOfObject>
@@ -87,6 +91,7 @@
         <owl:NamedIndividual rdf:about="&log;WoodAreaGISPolygon_87AN1">
 		<rdf:type rdf:resource="&knowrob;GISPolygon"/>
 		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal/woods_area1_000.dae</knowrob:pathToCadModel>
+                <srdl2-comp:mesh_scale rdf:datatype="&xsd;string">48.4 48.4 48.4</srdl2-comp:mesh_scale>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoA"/>
                 <knowrob:depthOfObject rdf:datatype="&xsd;double">138.6273</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">402.91524</knowrob:widthOfObject>
@@ -132,6 +137,7 @@
 		<rdf:type rdf:resource="&knowrob;GISPolygon"/>
 		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal/FrozenLake1_000.dae</knowrob:pathToCadModel>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoA"/>
+                <srdl2-comp:mesh_scale rdf:datatype="&xsd;string">48.4 48.4 48.4</srdl2-comp:mesh_scale>
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">427.63623</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">401.38665</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">347.20077</knowrob:heightOfObject>
@@ -153,6 +159,7 @@
         <owl:NamedIndividual rdf:about="&log;FrozenLakeGISPolygon_08TC3">
 		<rdf:type rdf:resource="&knowrob;GISPolygon"/>
 		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal/FrozenLake2_000.dae</knowrob:pathToCadModel>
+                <srdl2-comp:mesh_scale rdf:datatype="&xsd;string">48.4 48.4 48.4</srdl2-comp:mesh_scale>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoA"/>
                 <knowrob:depthOfObject rdf:datatype="&xsd;double">203.30247</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">401,38665</knowrob:widthOfObject>
@@ -176,6 +183,7 @@
         <owl:NamedIndividual rdf:about="&log;MountainGISPolygon_FD55A">
 		<rdf:type rdf:resource="&knowrob;GISPolygon"/>
 		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal/Big_mountain_000.dae</knowrob:pathToCadModel>
+                <srdl2-comp:mesh_scale rdf:datatype="&xsd;string">48.4 48.4 48.4</srdl2-comp:mesh_scale>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoA"/>
 	</owl:NamedIndividual>
 	<owl:NamedIndividual rdf:about="SemanticMapPerception_FD56A">
@@ -195,6 +203,7 @@
         <owl:NamedIndividual rdf:about="&log;Mountain_TK89C">
 		<rdf:type rdf:resource="&knowrob;Mountain"/>
 		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal/ground.dae</knowrob:pathToCadModel>
+                <srdl2-comp:mesh_scale rdf:datatype="&xsd;string">46 46 46</srdl2-comp:mesh_scale>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoA"/>
 	</owl:NamedIndividual>
 	<owl:NamedIndividual rdf:about="SemanticMapPerception_FD90A">
