@@ -9,12 +9,13 @@
 	<!ENTITY log "http://knowrob.org/kb/unreal_log.owl#">
 	<!ENTITY u-map "http://knowrob.org/kb/u_map.owl#">
 ]>
-<rdf:RDF xmlns:computable="http://knowrob.org/kb/computable.owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:knowrob="http://knowrob.org/kb/knowrob.owl#" xmlns:knowrob_u="http://knowrob.org/kb/knowrob_u.owl#" xmlns:u-map="http://knowrob.org/kb/u_map.owl#" xml:base="http://knowrob.org/kb/u_map.owl#">
+<rdf:RDF xmlns:computable="http://knowrob.org/kb/computable.owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:knowrob="http://knowrob.org/kb/knowrob.owl#" xmlns:knowrob_u="http://knowrob.org/kb/knowrob_u.owl#" xmlns:u-map="http://knowrob.org/kb/u_map.owl#" xmlns:srdl2-comp="http://knowrob.org/kb/srdl2-comp.owl#" xml:base="http://knowrob.org/kb/u_map.owl#">
 	<!--Ontologies-->
 	<owl:Ontology rdf:about="http://knowrob.org/kb/u_map.owl">
 		<owl:imports rdf:resource="package://knowrob_common/owl/knowrob.owl"/>
 		<owl:imports rdf:resource="package://sherpa_world/owl/knowrob_sherpa.owl"/>
 		<owl:imports rdf:resource="package://sherpa_world/owl/sherpa_robots.owl"/>
+                <owl:imports rdf:resource="package://knowrob_srdl/owl/srdl2-comp.owl"/>
 	</owl:Ontology>
 	<!--Property Definitions-->
 	<owl:ObjectProperty rdf:about="&knowrob;describedInMap"/>
@@ -225,7 +226,7 @@
 	</owl:NamedIndividual>
 	<!--Foliage object SM_Bridge_A_4Hu2t-->
 	<owl:NamedIndividual rdf:about="&log;SM_Bridge_A_4Hu2t">
-		<rdf:type rdf:resource="&knowrob;Bridge"/>
+		<rdf:type rdf:resource="&knowrob;Bridge"/>   <srdl2-comp:mesh_scale rdf:datatype="&xsd;string">0.45 0.45 0.45</srdl2-comp:mesh_scale>
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">17.056522</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">15.974727</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">9.504531</knowrob:heightOfObject>
@@ -245,7 +246,7 @@
 	</owl:NamedIndividual>
 	<!--Foliage object Bridge_2lAmu-->
 	<owl:NamedIndividual rdf:about="&log;Bridge_2lAmu">
-		<rdf:type rdf:resource="&knowrob;Bridge"/>
+		<rdf:type rdf:resource="&knowrob;Bridge"/>   <srdl2-comp:mesh_scale rdf:datatype="&xsd;string">0.45 0.45 0.45</srdl2-comp:mesh_scale>
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">25.934139</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">10.913203</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">9.504531</knowrob:heightOfObject>
@@ -265,7 +266,7 @@
 	</owl:NamedIndividual>
 	<!--Foliage object Bridge_3SXCA-->
 	<owl:NamedIndividual rdf:about="&log;Bridge_3SXCA">
-		<rdf:type rdf:resource="&knowrob;Bridge"/>
+		<rdf:type rdf:resource="&knowrob;Bridge"/>   <srdl2-comp:mesh_scale rdf:datatype="&xsd;string">0.45 0.45 0.45</srdl2-comp:mesh_scale>
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">15.909101</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">14.488242</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">9.504531</knowrob:heightOfObject>
@@ -285,7 +286,7 @@
 	</owl:NamedIndividual>
 	<!--Foliage object Bridge_4N1YI-->
 	<owl:NamedIndividual rdf:about="&log;Bridge_4N1YI">
-		<rdf:type rdf:resource="&knowrob;Bridge"/>
+		<rdf:type rdf:resource="&knowrob;Bridge"/>   <srdl2-comp:mesh_scale rdf:datatype="&xsd;string">0.45 0.45 0.45</srdl2-comp:mesh_scale>
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">13.184999</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">16.603241</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">9.504531</knowrob:heightOfObject>
@@ -305,7 +306,7 @@
 	</owl:NamedIndividual>
 	<!--Foliage object Bridge_00Cxh-->
 	<owl:NamedIndividual rdf:about="&log;Bridge_00Cxh">
-		<rdf:type rdf:resource="&knowrob;Bridge"/>
+		<rdf:type rdf:resource="&knowrob;Bridge"/>   <srdl2-comp:mesh_scale rdf:datatype="&xsd;string">0.45 0.45 0.45</srdl2-comp:mesh_scale>
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">22.516874</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">14.247109</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">9.504531</knowrob:heightOfObject>
@@ -325,7 +326,7 @@
 	</owl:NamedIndividual>
 	<!--Foliage object Bridge_6ByRn-->
 	<owl:NamedIndividual rdf:about="&log;Bridge_6ByRn">
-		<rdf:type rdf:resource="&knowrob;Bridge"/>
+		<rdf:type rdf:resource="&knowrob;Bridge"/>   <srdl2-comp:mesh_scale rdf:datatype="&xsd;string">0.45 0.45 0.45</srdl2-comp:mesh_scale>
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">7.000469</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">52.147499</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">9.504531</knowrob:heightOfObject>
@@ -345,7 +346,7 @@
 	</owl:NamedIndividual>
 	<!--Foliage object Bridge_54QgL-->
 	<owl:NamedIndividual rdf:about="&log;Bridge_54QgL">
-		<rdf:type rdf:resource="&knowrob;Bridge"/>
+		<rdf:type rdf:resource="&knowrob;Bridge"/>   <srdl2-comp:mesh_scale rdf:datatype="&xsd;string">0.45 0.45 0.45</srdl2-comp:mesh_scale>
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">38.210781</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">29.573593</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">9.504531</knowrob:heightOfObject>
@@ -360,12 +361,12 @@
 	</owl:NamedIndividual>
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_ywC8">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
-		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion>
+		<knowrob:quaternion rdf:datatype="&xsd;string">0.5 0.0 0.0 -0.86603</knowrob:quaternion>
 		<knowrob:translation rdf:datatype="&xsd;string">-256.900146 570.591064 158.007217</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object Bridge_7e1xC-->
 	<owl:NamedIndividual rdf:about="&log;Bridge_7e1xC">
-		<rdf:type rdf:resource="&knowrob;Bridge"/>
+		<rdf:type rdf:resource="&knowrob;Bridge"/>   <srdl2-comp:mesh_scale rdf:datatype="&xsd;string">0.45 0.45 0.45</srdl2-comp:mesh_scale>
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">31.830467</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">25.48414</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">9.504531</knowrob:heightOfObject>
@@ -380,7 +381,7 @@
 	</owl:NamedIndividual>
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_Pp6I">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
-		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion>
+		<knowrob:quaternion rdf:datatype="&xsd;string">0.86603 0.0 0.0 -0.5</knowrob:quaternion>
 		<knowrob:translation rdf:datatype="&xsd;string">-317.284302 571.575989 160.512787</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object Tunnel_22bRR-->
