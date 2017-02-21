@@ -15,8 +15,8 @@
      xmlns:knowrob="http://knowrob.org/kb/knowrob.owl#">
     <owl:Ontology rdf:about="http://knowrob.org/kb/sherpa_robots.owl">
         <owl:imports rdf:resource="package://knowrob_common/owl/knowrob.owl"/>
-        <owl:imports rdf:resource="package://sherpa_world/owl/knowrob_sherpa.owl"/>
         <owl:imports rdf:resource="package://knowrob_srdl/owl/srdl2-comp.owl"/>
+        <owl:imports rdf:resource="package://sherpa_world/owl/knowrob_sherpa.owl"/>
         <owl:imports rdf:resource="package://knowrob_srdl/owl/srdl2-cap.owl"/>
     </owl:Ontology>
     
@@ -204,6 +204,12 @@
     
 
 
+    <!-- http://knowrob.org/kb/knowrob.owl#SherpaNetworkDevice -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaNetworkDevice"/>
+    
+
+
     <!-- http://knowrob.org/kb/knowrob.owl#SherpaWaspBlue -->
 
     <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaWaspBlue"/>
@@ -273,6 +279,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#AirPropeller_at25DepU28Tz">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#AirPropeller"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -281,6 +288,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#AirPropeller_bSdlkE6thUkl">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#AirPropeller"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -289,6 +297,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#AirPropeller_cslWeopDf87r">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#AirPropeller"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -299,6 +308,7 @@
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#Battery"/>
         <knowrob:batteryStandard rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SHERPA</knowrob:batteryStandard>
         <knowrob:inputVoltage rdf:datatype="http://qudt.org/vocab/unit#Volt">2.5</knowrob:inputVoltage>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -309,6 +319,7 @@
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#Battery"/>
         <knowrob:batteryStandard rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SHERPA</knowrob:batteryStandard>
         <knowrob:inputVoltage rdf:datatype="http://qudt.org/vocab/unit#Volt">2.5</knowrob:inputVoltage>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -317,6 +328,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#Beacon_aiWrelkW2poi">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#Beacon"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -325,6 +337,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#Camera_a5tREgduI8wt">
         <rdf:type rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#ColorCamera"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -333,6 +346,8 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#Camera_bt67SDwl8Uht">
         <rdf:type rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#ColorCamera"/>
+        <srdl2-comp:urdfName>/blue_wasp/optical_frame</srdl2-comp:urdfName>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -341,6 +356,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#ElectricalMotor_azUH3Jrez3op">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#ElectricalMotor"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -349,6 +365,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#ElectricalMotor_be58Zske3wOi">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#ElectricalMotor"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -357,6 +374,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#ElectricalMotor_ca4eLwUZ19Tz">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#ElectricalMotor"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -365,6 +383,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#ElectricalMotor_djetA36ZewlS">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#ElectricalMotor"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -373,6 +392,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#LocalizationComponent_at23iHaop7Wg">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#UnrealLocalizationComponent"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -381,6 +401,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#LocalizationComponent_bt23OdJElwab">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#UnrealLocalizationComponent"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -389,6 +410,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#LocalizationComponent_ctaojwl45TXl">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#UnrealLocalizationComponent"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -397,6 +419,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#LocalizationComponent_duqwe87XLke4E">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#UnrealLocalizationComponent"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -405,6 +428,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#NavigationComponent_az23MLKD23oJ">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaDonkeyController"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -413,6 +437,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#NavigationComponent_bkstz56LSuhW">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaDroneController"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -421,6 +446,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#NavigationComponent_ciuw56SImsoi">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaDroneController"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -429,6 +455,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#NavigationComponent_doue34PosdAs">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaDroneController"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -437,6 +464,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaBoxConnector_he64Oir56Sdu">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaBoxConnector"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -446,6 +474,7 @@
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaBox_7gFrt4ls8ZE5t">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaBox"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaWaspConnector_a6dtGzw23Iua"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -454,6 +483,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaDonkeyArm_gfkj6tSDF3oS">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaDonkeyArm"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -473,12 +503,13 @@
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#Wheel_o7DT3zsgKJe3"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#Wheel_t3tIOd63Gher"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#WirelessLan_a634uhWODh2u"/>
+        <srdl2-comp:urdfName>/donkey</srdl2-comp:urdfName>
+        <srdl2-comp:mesh_scale rdf:datatype="&xsd;string">1.0 1.0 1.0</srdl2-comp:mesh_scale>
         <knowrob:depthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.008398</knowrob:depthOfObject>
         <knowrob:heightOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.008418</knowrob:heightOfObject>
         <knowrob:maximumSpeed rdf:datatype="http://qudt.org/vocab/unit#MeterPerSecond">3.2</knowrob:maximumSpeed>
-        <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#float">package://sim/unreal/SherpaDonkey.dae</knowrob:pathToCadModel>
+        <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#float">package://sim/unreal/Donkey.dae</knowrob:pathToCadModel>
         <knowrob:widthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</knowrob:widthOfObject>
-        <srdl2-comp:urdfName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/donkey</srdl2-comp:urdfName>
     </owl:NamedIndividual>
     
 
@@ -493,12 +524,13 @@
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#LocalizationComponent_bt23OdJElwab"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#NavigationComponent_bkstz56LSuhW"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#WirelessLan_bt27ZSowhj4a"/>
+        <srdl2-comp:urdfName>/hawk</srdl2-comp:urdfName>
+        <srdl2-comp:mesh_scale rdf:datatype="&xsd;string">1.0 1.0 1.0</srdl2-comp:mesh_scale>
         <knowrob:depthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.988047</knowrob:depthOfObject>
         <knowrob:heightOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.293164</knowrob:heightOfObject>
         <knowrob:maximumSpeed rdf:datatype="http://qudt.org/vocab/unit#MeterPerSecond">25.0</knowrob:maximumSpeed>
-        <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://sim/unreal/SherpaHawk.dae</knowrob:pathToCadModel>
+        <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://sim/unreal/Hawk.dae</knowrob:pathToCadModel>
         <knowrob:widthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.151328</knowrob:widthOfObject>
-        <srdl2-comp:urdfName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/hawk</srdl2-comp:urdfName>
     </owl:NamedIndividual>
     
 
@@ -514,11 +546,12 @@
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#LocalizationComponent_ctaojwl45TXl"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#NavigationComponent_ciuw56SImsoi"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#WirelessLan_c5wEok34lsHa"/>
+        <srdl2-comp:urdfName>/blue_wasp/base_link</srdl2-comp:urdfName>
+        <srdl2-comp:mesh_scale rdf:datatype="&xsd;string">1.0 1.0 1.0</srdl2-comp:mesh_scale>
         <knowrob:depthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.509687</knowrob:depthOfObject>
         <knowrob:heightOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16</knowrob:heightOfObject>
-        <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://sim/unreal/SherpaWaspBlue.dae</knowrob:pathToCadModel>
+        <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://sim/unreal/BlueWasp.dae</knowrob:pathToCadModel>
         <knowrob:widthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.509687</knowrob:widthOfObject>
-        <srdl2-comp:urdfName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/blue_wasp/base_link</srdl2-comp:urdfName>
     </owl:NamedIndividual>
     
 
@@ -527,6 +560,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaWaspConnector_a6dtGzw23Iua">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaWaspConnector"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -542,12 +576,13 @@
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#LocalizationComponent_duqwe87XLke4E"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#NavigationComponent_doue34PosdAs"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#WirelessLan_du5rSK98wunk"/>
+        <srdl2-comp:urdfName>/red_wasp/base_link</srdl2-comp:urdfName>
+        <srdl2-comp:mesh_scale rdf:datatype="&xsd;string">1.0 1.0 1.0</srdl2-comp:mesh_scale>
         <knowrob:depthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.509687</knowrob:depthOfObject>
         <knowrob:heightOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16</knowrob:heightOfObject>
         <knowrob:maximumSpeed rdf:datatype="http://qudt.org/vocab/unit#MeterPerSecond">10.0</knowrob:maximumSpeed>
-        <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://sim/unreal/SherpaWaspRed.dae</knowrob:pathToCadModel>
+        <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://sim/unreal/RedWasp.dae</knowrob:pathToCadModel>
         <knowrob:widthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.509687</knowrob:widthOfObject>
-        <srdl2-comp:urdfName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/red_wasp/base_link</srdl2-comp:urdfName>
     </owl:NamedIndividual>
     
 
@@ -556,6 +591,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#Wheel_6sduPO37Tres">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#Wheel"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -564,6 +600,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#Wheel_dslk5rSfe2I6">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#Wheel"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -572,6 +609,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#Wheel_o7DT3zsgKJe3">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#Wheel"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -580,6 +618,7 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#Wheel_t3tIOd63Gher">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#Wheel"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -587,7 +626,8 @@
     <!-- http://knowrob.org/kb/knowrob.owl#WirelessLan_a634uhWODh2u -->
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#WirelessLan_a634uhWODh2u">
-        <rdf:type rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#WirelessLan"/>
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaNetworkDevice"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -595,7 +635,8 @@
     <!-- http://knowrob.org/kb/knowrob.owl#WirelessLan_bt27ZSowhj4a -->
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#WirelessLan_bt27ZSowhj4a">
-        <rdf:type rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#WirelessLan"/>
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaNetworkDevice"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -603,7 +644,8 @@
     <!-- http://knowrob.org/kb/knowrob.owl#WirelessLan_c5wEok34lsHa -->
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#WirelessLan_c5wEok34lsHa">
-        <rdf:type rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#WirelessLan"/>
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaNetworkDevice"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -611,7 +653,8 @@
     <!-- http://knowrob.org/kb/knowrob.owl#WirelessLan_du5rSK98wunk -->
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#WirelessLan_du5rSK98wunk">
-        <rdf:type rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#WirelessLan"/>
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaNetworkDevice"/>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
     </owl:NamedIndividual>
 </rdf:RDF>
 
