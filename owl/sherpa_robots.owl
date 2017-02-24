@@ -36,6 +36,8 @@
     <!-- http://qudt.org/vocab/unit#MeterPerSecond -->
 
     <rdfs:Datatype rdf:about="http://qudt.org/vocab/unit#MeterPerSecond"/>
+
+    <rdfs:Datatype rdf:about="http://qudt.org/vocab/unit#Meter"/>
     
 
 
@@ -531,6 +533,7 @@
         <knowrob:maximumSpeed rdf:datatype="http://qudt.org/vocab/unit#MeterPerSecond">25.0</knowrob:maximumSpeed>
         <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://sim/unreal/Hawk.dae</knowrob:pathToCadModel>
         <knowrob:widthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.151328</knowrob:widthOfObject>
+        <knowrob:nominalFlightAltitude rdf:datatype="http://qudt.org/vocab/unit#Meter">40.0</knowrob:nominalFlightAltitude>
     </owl:NamedIndividual>
     
 
@@ -552,6 +555,7 @@
         <knowrob:heightOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16</knowrob:heightOfObject>
         <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://sim/unreal/BlueWasp.dae</knowrob:pathToCadModel>
         <knowrob:widthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.509687</knowrob:widthOfObject>
+        <knowrob:nominalFlightAltitude rdf:datatype="http://qudt.org/vocab/unit#Meter">20.0</knowrob:nominalFlightAltitude>
     </owl:NamedIndividual>
     
 
@@ -583,6 +587,7 @@
         <knowrob:maximumSpeed rdf:datatype="http://qudt.org/vocab/unit#MeterPerSecond">10.0</knowrob:maximumSpeed>
         <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://sim/unreal/RedWasp.dae</knowrob:pathToCadModel>
         <knowrob:widthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.509687</knowrob:widthOfObject>
+        <knowrob:nominalFlightAltitude rdf:datatype="http://qudt.org/vocab/unit#Meter">20.0</knowrob:nominalFlightAltitude>
     </owl:NamedIndividual>
     
 
