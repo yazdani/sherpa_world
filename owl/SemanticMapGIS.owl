@@ -215,7 +215,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_Ak99">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.70711 0.70711 0.0 0.0</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">0 0 -80</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">0 0 -100</knowrob:translation>
 	</owl:NamedIndividual>
 
 

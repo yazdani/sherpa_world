@@ -524,7 +524,7 @@
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#LocalizationComponent_bt23OdJElwab"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#NavigationComponent_bkstz56LSuhW"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#WirelessLan_bt27ZSowhj4a"/>
-        <srdl2-comp:urdfName>/hawk</srdl2-comp:urdfName>
+        <srdl2-comp:urdfName>/hawk/base_link</srdl2-comp:urdfName>
         <srdl2-comp:mesh_scale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0 1.0 1.0</srdl2-comp:mesh_scale>
         <knowrob:depthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.988047</knowrob:depthOfObject>
         <knowrob:heightOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.293164</knowrob:heightOfObject>
