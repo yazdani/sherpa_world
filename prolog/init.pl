@@ -39,6 +39,7 @@
 
 :- owl_parser:owl_parse('package://knowrob_srdl/owl/srdl2-action.owl').
 :- owl_parser:owl_parse('package://sherpa_world/owl/sherpa_robots.owl').
+:- owl_parser:owl_parse('package://sherpa_world/owl/knowrob_sherpa.owl').
 
 :- rdf_db:rdf_register_ns(srdl2act, 'http://knowrob.org/kb/srdl2-action.owl#', [keep(true)]).
 :- rdf_db:rdf_register_ns(srdl2comp, 'http://knowrob.org/kb/srdl2-comp.owl#', [keep(true)]).

@@ -339,7 +339,8 @@
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#Camera_a5tREgduI8wt">
         <rdf:type rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#ColorCamera"/>
-        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</knowrob:hasVisual>
+        <srdl2-comp:urdfName>/hawk/optical_frame</srdl2-comp:urdfName>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</knowrob:hasVisual>
     </owl:NamedIndividual>
     
 
@@ -505,8 +506,7 @@
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#Wheel_o7DT3zsgKJe3"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#Wheel_t3tIOd63Gher"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#WirelessLan_a634uhWODh2u"/>
-        <srdl2-comp:urdfName>/donkey</srdl2-comp:urdfName>
-        <srdl2-comp:mesh_scale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0 1.0 1.0</srdl2-comp:mesh_scale>
+        <srdl2-comp:succeedingLink rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaDonkey_ETJM_baselink"/>
         <knowrob:depthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.008398</knowrob:depthOfObject>
         <knowrob:heightOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.008418</knowrob:heightOfObject>
         <knowrob:maximumSpeed rdf:datatype="http://qudt.org/vocab/unit#MeterPerSecond">3.2</knowrob:maximumSpeed>
@@ -514,29 +514,41 @@
         <knowrob:widthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</knowrob:widthOfObject>
     </owl:NamedIndividual>
     
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaDonkey_ETJM_baselink">
+        <rdf:type rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#UrdfLink"/>
+        <srdl2-comp:urdfName>/donkey</srdl2-comp:urdfName>
+        <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://sim/unreal/Donkey.dae</knowrob:pathToCadModel>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</knowrob:hasVisual>
+        <srdl2-comp:mesh_scale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0 1.0 1.0</srdl2-comp:mesh_scale>
+    </owl:NamedIndividual>
 
 
     <!-- http://knowrob.org/kb/knowrob.owl#SherpaHawk_POdy -->
 
     <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaHawk_POdy">
         <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaHawk"/>
+        <srdl2-comp:succeedingLink rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaHawk_POdy_baselink"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#AirPropeller_at25DepU28Tz"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#Camera_a5tREgduI8wt"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#ElectricalMotor_be58Zske3wOi"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#LocalizationComponent_bt23OdJElwab"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#NavigationComponent_bkstz56LSuhW"/>
-        <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#WirelessLan_bt27ZSowhj4a"/>
-        <srdl2-comp:urdfName>/hawk/base_link</srdl2-comp:urdfName>
-        <srdl2-comp:mesh_scale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0 1.0 1.0</srdl2-comp:mesh_scale>
+        <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#WirelessLan_bt27ZSowhj4a"/>      
         <knowrob:depthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.988047</knowrob:depthOfObject>
         <knowrob:heightOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.293164</knowrob:heightOfObject>
         <knowrob:maximumSpeed rdf:datatype="http://qudt.org/vocab/unit#MeterPerSecond">25.0</knowrob:maximumSpeed>
-        <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://sim/unreal/Hawk.dae</knowrob:pathToCadModel>
         <knowrob:widthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.151328</knowrob:widthOfObject>
         <knowrob:nominalFlightAltitude rdf:datatype="http://qudt.org/vocab/unit#Meter">40.0</knowrob:nominalFlightAltitude>
+        <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://sim/unreal/Hawk.dae</knowrob:pathToCadModel>
     </owl:NamedIndividual>
     
-
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaHawk_POdy_baselink">
+        <rdf:type rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#UrdfLink"/>
+        <srdl2-comp:urdfName>/hawk/base_link</srdl2-comp:urdfName>
+        <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://sim/unreal/Hawk.dae</knowrob:pathToCadModel>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</knowrob:hasVisual>
+        <srdl2-comp:mesh_scale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0 1.0 1.0</srdl2-comp:mesh_scale>
+    </owl:NamedIndividual>
 
     <!-- http://knowrob.org/kb/knowrob.owl#SherpaWaspBlue_ILQN -->
 
@@ -549,8 +561,7 @@
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#LocalizationComponent_ctaojwl45TXl"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#NavigationComponent_ciuw56SImsoi"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#WirelessLan_c5wEok34lsHa"/>
-        <srdl2-comp:urdfName>/blue_wasp/base_link</srdl2-comp:urdfName>
-        <srdl2-comp:mesh_scale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0 1.0 1.0</srdl2-comp:mesh_scale>
+        <srdl2-comp:succeedingLink rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaWaspBlue_ILQN_baselink"/>
         <knowrob:depthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.509687</knowrob:depthOfObject>
         <knowrob:heightOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16</knowrob:heightOfObject>
         <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://sim/unreal/BlueWasp.dae</knowrob:pathToCadModel>
@@ -558,6 +569,14 @@
         <knowrob:nominalFlightAltitude rdf:datatype="http://qudt.org/vocab/unit#Meter">20.0</knowrob:nominalFlightAltitude>
     </owl:NamedIndividual>
     
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaWaspBlue_ILQN_baselink">
+        <rdf:type rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#UrdfLink"/>
+        <srdl2-comp:urdfName>/blue_wasp/base_link</srdl2-comp:urdfName>
+        <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://sim/unreal/BlueWasp.dae</knowrob:pathToCadModel>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</knowrob:hasVisual>
+        <srdl2-comp:mesh_scale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0 1.0 1.0</srdl2-comp:mesh_scale>
+    </owl:NamedIndividual>
 
 
     <!-- http://knowrob.org/kb/knowrob.owl#SherpaWaspConnector_a6dtGzw23Iua -->
@@ -580,8 +599,7 @@
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#LocalizationComponent_duqwe87XLke4E"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#NavigationComponent_doue34PosdAs"/>
         <srdl2-comp:subComponent rdf:resource="http://knowrob.org/kb/knowrob.owl#WirelessLan_du5rSK98wunk"/>
-        <srdl2-comp:urdfName>/red_wasp/base_link</srdl2-comp:urdfName>
-        <srdl2-comp:mesh_scale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0 1.0 1.0</srdl2-comp:mesh_scale>
+        <srdl2-comp:succeedingLink rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaWaspRed_H9cB_baselink"/>
         <knowrob:depthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.509687</knowrob:depthOfObject>
         <knowrob:heightOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16</knowrob:heightOfObject>
         <knowrob:maximumSpeed rdf:datatype="http://qudt.org/vocab/unit#MeterPerSecond">10.0</knowrob:maximumSpeed>
@@ -590,6 +608,14 @@
         <knowrob:nominalFlightAltitude rdf:datatype="http://qudt.org/vocab/unit#Meter">20.0</knowrob:nominalFlightAltitude>
     </owl:NamedIndividual>
     
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaWaspRed_H9cB_baselink">
+        <rdf:type rdf:resource="http://knowrob.org/kb/srdl2-comp.owl#UrdfLink"/>
+        <srdl2-comp:urdfName>/red_wasp/base_link</srdl2-comp:urdfName>
+        <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://sim/unreal/RedWasp.dae</knowrob:pathToCadModel>
+        <knowrob:hasVisual rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</knowrob:hasVisual>
+        <srdl2-comp:mesh_scale rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0 1.0 1.0</srdl2-comp:mesh_scale>
+    </owl:NamedIndividual>
 
 
     <!-- http://knowrob.org/kb/knowrob.owl#Wheel_6sduPO37Tres -->
