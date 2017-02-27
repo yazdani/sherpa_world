@@ -40,7 +40,7 @@ comp_networkQuality(Robot, Quality) :-
 
 comp_networkQuality_at_time(Robot, Quality, Instant) :-
     distanceToDonkey(Robot, Instant, Distance),
-    Distance < 1.000
+    Distance < 200.0
     -> networkQuality_good(Quality)
     ;  networkQuality_bad(Quality).
 
