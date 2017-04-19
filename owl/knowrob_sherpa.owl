@@ -254,13 +254,16 @@
     
 
 
-    <!-- http://knowrob.org/kb/knowrob.owl#Bridge -->
+    <!-- http://knowrob.org/kb/knowrob.owl#Roofing -->
 
-    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#Bridge">
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#RoofingBridge">
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#SpatialThing-Localized"/>
     </owl:Class>
     
-
+   <!-- http://knowrob.org/kb/knowrob.owl#Bridge -->
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#Bridge">
+        <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#Roofing"/>
+    </owl:Class>
 
     <!-- http://knowrob.org/kb/knowrob.owl#Building -->
 
@@ -1087,10 +1090,9 @@
     <!-- http://knowrob.org/kb/knowrob.owl#Tunnel -->
 
     <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#Tunnel">
-        <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#SpatialThing-Localized"/>
+        <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#Roofing"/>
     </owl:Class>
-    
-
+  
 
     <!-- http://knowrob.org/kb/knowrob.owl#UnmannedAircraft -->
 
