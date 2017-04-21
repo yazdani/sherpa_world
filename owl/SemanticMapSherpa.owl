@@ -48817,7 +48817,7 @@
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">0.0</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">0.0</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">0.0</knowrob:heightOfObject>
-		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/RoadSegment.dae</knowrob:pathToCadModel>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Road2.dae</knowrob:pathToCadModel>
 		<knowrob:partOf rdf:resource="&log;MountainRoad_B50s"/>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/>
 	</owl:NamedIndividual>
@@ -48838,7 +48838,7 @@
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">0.0</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">0.0</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">0.0</knowrob:heightOfObject>
-		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/RoadSegment.dae</knowrob:pathToCadModel>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Road4.dae</knowrob:pathToCadModel>
 		<knowrob:partOf rdf:resource="&log;MountainRoad_B50s"/>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/>
 	</owl:NamedIndividual>
@@ -48859,7 +48859,7 @@
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">0.0</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">0.0</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">0.0</knowrob:heightOfObject>
-		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/RoadSegment.dae</knowrob:pathToCadModel>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Road5.dae</knowrob:pathToCadModel>
 		<knowrob:partOf rdf:resource="&log;MountainRoad_B50s"/>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/>
 	</owl:NamedIndividual>
@@ -48880,7 +48880,7 @@
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">0.0</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">0.0</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">0.0</knowrob:heightOfObject>
-		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/RoadSegment.dae</knowrob:pathToCadModel>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Road3.dae</knowrob:pathToCadModel>
 		<knowrob:partOf rdf:resource="&log;MountainRoad_B50s"/>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/>
 	</owl:NamedIndividual>
@@ -48901,7 +48901,7 @@
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">0.0</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">0.0</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">0.0</knowrob:heightOfObject>
-		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/RoadSegment.dae</knowrob:pathToCadModel>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Road1.dae</knowrob:pathToCadModel>
 		<knowrob:partOf rdf:resource="&log;MountainRoad_B50s"/>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/>
 	</owl:NamedIndividual>
