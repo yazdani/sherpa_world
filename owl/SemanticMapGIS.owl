@@ -202,7 +202,7 @@
         <!--Ground-->
         <owl:NamedIndividual rdf:about="&log;Mountain_TK89C">
 		<rdf:type rdf:resource="&knowrob;Mountain"/>
-		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal/ground.dae</knowrob:pathToCadModel>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/ground.dae</knowrob:pathToCadModel>
                 <srdl2-comp:mesh_scale rdf:datatype="&xsd;string">46 46 46</srdl2-comp:mesh_scale>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoA"/>
 	</owl:NamedIndividual>
