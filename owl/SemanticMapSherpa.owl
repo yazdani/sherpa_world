@@ -127,7 +127,7 @@
 		<knowrob:translation rdf:datatype="&xsd;string">593.877075 -312.917053 182.126358</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SherpaHangGlider_rjI4-->
-	<owl:NamedIndividual rdf:about="&log;SherpaHangGlider_rjI4">
+	<!--owl:NamedIndividual rdf:about="&log;SherpaHangGlider_rjI4">
 		<rdf:type rdf:resource="&knowrob;SherpaHangGlider"/>
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">6.308125</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">10.360547</knowrob:widthOfObject>
@@ -145,9 +145,9 @@
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.99619 0.0 0.0 -0.087204</knowrob:quaternion>
 		<knowrob:translation rdf:datatype="&xsd;string">-366.394196 581.196533 190.75</knowrob:translation>
-	</owl:NamedIndividual>
+	</owl:NamedIndividual-->
 	<!--Foliage object LeftHand_43Ls3y-->
-	<owl:NamedIndividual rdf:about="&log;LeftHand_43Ls3y">
+	<!--owl:NamedIndividual rdf:about="&log;LeftHand_43Ls3y">
 		<rdf:type rdf:resource="&knowrob;LeftHand"/>
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">0.501484</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">0.516602</knowrob:widthOfObject>
@@ -165,9 +165,9 @@
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.342021 0.0 0.0 0.939692</knowrob:quaternion>
 		<knowrob:translation rdf:datatype="&xsd;string">583.685913 -298.239716 182.399994</knowrob:translation>
-	</owl:NamedIndividual>
+	</owl:NamedIndividual-->
 	<!--Foliage object RightHand_oJhq-->
-	<owl:NamedIndividual rdf:about="&log;RightHand_oJhq">
+	<!--owl:NamedIndividual rdf:about="&log;RightHand_oJhq">
 		<rdf:type rdf:resource="&knowrob;RightHand"/>
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">0.34957</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">0.3</knowrob:widthOfObject>
@@ -185,7 +185,7 @@
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion>
 		<knowrob:translation rdf:datatype="&xsd;string">583.899963 -297.699982 182.399994</knowrob:translation>
-	</owl:NamedIndividual>
+	</owl:NamedIndividual-->
 	<!--Foliage object FrozenLake_rFdy-->
 	<owl:NamedIndividual rdf:about="&log;FrozenLake_rFdy">
 		<rdf:type rdf:resource="&knowrob;FrozenLake"/>
@@ -22648,7 +22648,7 @@
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_5dwt-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_5dwt">
-a		<rdf:type rdf:resource="&knowrob;PineTree"/>
+		<rdf:type rdf:resource="&knowrob;PineTree"/>
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">7.89875</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">8.115391</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">13.302578</knowrob:heightOfObject>
