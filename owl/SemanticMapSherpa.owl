@@ -48817,7 +48817,7 @@
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">0.0</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">0.0</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">0.0</knowrob:heightOfObject>
-		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Road2.dae</knowrob:pathToCadModel>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Road02.dae</knowrob:pathToCadModel>
 		<knowrob:partOf rdf:resource="&log;MountainRoad_B50s"/>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/>
 	</owl:NamedIndividual>
@@ -48830,7 +48830,9 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_rOWp">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">590.268127 -324.325623 179.824997</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">582.969987 -329.247823 179.824997</knowrob:translation>
+		<!-- -7.29814 -4.92220 0.0-->
+		<!--knowrob:translation rdf:datatype="&xsd;string">590.268127 -324.325623 179.824997</knowrob:translation-->
 	</owl:NamedIndividual>
 	<!--Foliage object RoadSegment_lTfT-->
 	<owl:NamedIndividual rdf:about="&log;RoadSegment_lTfT">
@@ -48838,7 +48840,7 @@
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">0.0</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">0.0</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">0.0</knowrob:heightOfObject>
-		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Road4.dae</knowrob:pathToCadModel>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Road04.dae</knowrob:pathToCadModel>
 		<knowrob:partOf rdf:resource="&log;MountainRoad_B50s"/>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/>
 	</owl:NamedIndividual>
@@ -48851,7 +48853,9 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_GiEY">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">585.674377 -314.033752 180.492264</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">587.074157 -305.421792 180.492264</knowrob:translation>
+		<!-- 1.39978 -8.61196 0.0-->
+		<!--knowrob:translation rdf:datatype="&xsd;string">585.674377 -314.033752 180.492264</knowrob:translation-->
 	</owl:NamedIndividual>
 	<!--Foliage object RoadSegment_QrPf-->
 	<owl:NamedIndividual rdf:about="&log;RoadSegment_QrPf">
@@ -48859,7 +48863,7 @@
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">0.0</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">0.0</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">0.0</knowrob:heightOfObject>
-		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Road5.dae</knowrob:pathToCadModel>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Road05.dae</knowrob:pathToCadModel>
 		<knowrob:partOf rdf:resource="&log;MountainRoad_B50s"/>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/>
 	</owl:NamedIndividual>
@@ -48872,7 +48876,9 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_Ps3d">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">591.060608 -305.862793 180.74585</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">598.801618 -309.253133 180.74585</knowrob:translation>
+		<!--7.74101-3.39034 0.0-->
+		<!--knowrob:translation rdf:datatype="&xsd;string">591.060608 -305.862793 180.74585</knowrob:translation-->
 	</owl:NamedIndividual>
 	<!--Foliage object RoadSegment_HU3o-->
 	<owl:NamedIndividual rdf:about="&log;RoadSegment_HU3o">
@@ -48880,7 +48886,7 @@
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">0.0</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">0.0</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">0.0</knowrob:heightOfObject>
-		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Road3.dae</knowrob:pathToCadModel>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Road03.dae</knowrob:pathToCadModel>
 		<knowrob:partOf rdf:resource="&log;MountainRoad_B50s"/>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/>
 	</owl:NamedIndividual>
@@ -48893,7 +48899,9 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_nuZw">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">599.283447 -308.543121 180.605225</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">604.382367 -302.460591 180.605225</knowrob:translation>
+		<!-- 5.09892 6.08253 0.0-->
+		<!--knowrob:translation rdf:datatype="&xsd;string">599.283447 -308.543121 180.605225</knowrob:translation-->
 	</owl:NamedIndividual>
 	<!--Foliage object RoadSegment_ULIF-->
 	<owl:NamedIndividual rdf:about="&log;RoadSegment_ULIF">
@@ -48901,7 +48909,7 @@
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">0.0</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">0.0</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">0.0</knowrob:heightOfObject>
-		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Road1.dae</knowrob:pathToCadModel>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Road01.dae</knowrob:pathToCadModel>
 		<knowrob:partOf rdf:resource="&log;MountainRoad_B50s"/>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/>
 	</owl:NamedIndividual>
@@ -48914,7 +48922,9 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_M22U">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">597.026855 -320.767792 179.687027</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">590.957375 -315.452702 179.687027</knowrob:translation>
+		<!-- -6.06948 5.31509 0.0-->
+		<!--knowrob:translation rdf:datatype="&xsd;string">597.026855 -320.767792 179.687027</knowrob:translation-->
 	</owl:NamedIndividual>
 	<!--Foliage object RoadSegment_MB6X-->
 	<owl:NamedIndividual rdf:about="&log;RoadSegment_MB6X">
