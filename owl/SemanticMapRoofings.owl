@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE rdf:RDF[ 
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+	<!ENTITY knowrob "http://knowrob.org/kb/knowrob.owl#">
+	<!ENTITY knowrob_u "http://knowrob.org/kb/knowrob_u.owl#">
+	<!ENTITY log "http://knowrob.org/kb/unreal_log.owl#">
+	<!ENTITY u-map "http://knowrob.org/kb/u_map.owl#">
+]>
+<rdf:RDF xmlns:computable="http://knowrob.org/kb/computable.owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:knowrob="http://knowrob.org/kb/knowrob.owl#" xmlns:knowrob_u="http://knowrob.org/kb/knowrob_u.owl#" xmlns:u-map="http://knowrob.org/kb/u_map.owl#" xmlns:srdl2-comp="http://knowrob.org/kb/srdl2-comp.owl#" xml:base="http://knowrob.org/kb/u_map.owl#">
+	<!--Ontologies-->
+	<owl:Ontology rdf:about="http://knowrob.org/kb/u_map.owl">
+		<owl:imports rdf:resource="package://knowrob_common/owl/knowrob.owl"/>
+		<owl:imports rdf:resource="package://sherpa_world/owl/knowrob_sherpa.owl"/>
+		<owl:imports rdf:resource="package://sherpa_world/owl/sherpa_robots.owl"/>
+                <owl:imports rdf:resource="package://knowrob_srdl/owl/srdl2-comp.owl"/>
+	</owl:Ontology>
+	<!--Property Definitions-->
+	<owl:ObjectProperty rdf:about="&knowrob;describedInMap"/>
+	<!--Datatype Definitions-->
+	<owl:DatatypeProperty rdf:about="&knowrob;depthOfObject"/>
+	<owl:DatatypeProperty rdf:about="&knowrob;heightOfObject"/>
+	<owl:DatatypeProperty rdf:about="&knowrob;widthOfObject"/>
+	<owl:DatatypeProperty rdf:about="&knowrob;vectorX"/>
+	<owl:DatatypeProperty rdf:about="&knowrob;vectorY"/>
+	<owl:DatatypeProperty rdf:about="&knowrob;vectorZ"/>
+	<owl:DatatypeProperty rdf:about="&knowrob;pathToCadModel"/>
+	<!--Class Definitions-->
+	<owl:Class rdf:about="&knowrob;SemanticEnvironmentMap"/>
+	<owl:Class rdf:about="&knowrob;SemanticMapPerception"/>
+	<owl:Class rdf:about="&knowrob;TimePoint"/>
+	<owl:Class rdf:about="&knowrob;Vector"/>
+	<!--Semantic Environment Map-->
+	<owl:NamedIndividual rdf:about="&u-map;USemMap_twoR">
+		<rdf:type rdf:resource="&knowrob;SemanticEnvironmentMap"/>
+	</owl:NamedIndividual>
+	<!--Timepoint-->
+	<owl:NamedIndividual rdf:about="&u-map;timepoint_0">
+		<rdf:type rdf:resource="&knowrob;Timepoint"/>
+	</owl:NamedIndividual>
+	<!--Foliage object RoofingBridge_A_4Hu2t-->
+	<owl:NamedIndividual rdf:about="&log;RoofingBridge_A_4Hu2t">
+		<rdf:type rdf:resource="&knowrob;Roofing"/>   <!--srdl2-comp:mesh_scale rdf:datatype="&xsd;string">0.45 0.45 0.45</srdl2-comp:mesh_scale-->
+		<knowrob:depthOfObject rdf:datatype="&xsd;double">17.056522</knowrob:depthOfObject>
+		<knowrob:widthOfObject rdf:datatype="&xsd;double">10.974727</knowrob:widthOfObject>
+		<knowrob:heightOfObject rdf:datatype="&xsd;double">10.504531</knowrob:heightOfObject>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Bridge_0down.dae</knowrob:pathToCadModel>
+		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoR"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="SemanticMapPerception_t9r6">
+		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
+		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_y8p5"/>
+		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
+		<knowrob:objectActedOn rdf:resource="&log;RoofingBridge_A_4Hu2t"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="&u-map;Transformation_y8p5">
+		<rdf:type rdf:resource="&knowrob;Transformation"/>
+		<knowrob:quaternion rdf:datatype="&xsd;string">0.912119 0.0 0.0 0.409925</knowrob:quaternion>
+		<knowrob:translation rdf:datatype="&xsd;string">310.66803 230.126083 108.5</knowrob:translation>
+	</owl:NamedIndividual>
+	<!--Foliage object Bridge_2lAmu-->
+	<owl:NamedIndividual rdf:about="&log;RoofingBridge_2lAmu">
+		<rdf:type rdf:resource="&knowrob;Roofing"/>   <!--srdl2-comp:mesh_scale rdf:datatype="&xsd;string">0.45 0.45 0.45</srdl2-comp:mesh_scale-->
+		<knowrob:depthOfObject rdf:datatype="&xsd;double">25.934139</knowrob:depthOfObject>
+		<knowrob:widthOfObject rdf:datatype="&xsd;double">10.913203</knowrob:widthOfObject>
+		<knowrob:heightOfObject rdf:datatype="&xsd;double">10.504531</knowrob:heightOfObject>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Bridge_0down.dae</knowrob:pathToCadModel>
+		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoR"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="SemanticMapPerception_UptZ">
+		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
+		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_6IZu"/>
+		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
+		<knowrob:objectActedOn rdf:resource="&log;RoofingBridge_2lAmu"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="&u-map;Transformation_6IZu">
+		<rdf:type rdf:resource="&knowrob;Transformation"/>
+		<knowrob:quaternion rdf:datatype="&xsd;string">0.621147 0.0 0.0 0.783694</knowrob:quaternion>
+		<knowrob:translation rdf:datatype="&xsd;string">283.048309 237.482697 109.0</knowrob:translation>
+	</owl:NamedIndividual>
+	<!--Foliage object Bridge_3SXCA-->
+	<owl:NamedIndividual rdf:about="&log;RoofingBridge_3SXCA">
+		<rdf:type rdf:resource="&knowrob;Roofing"/>   <!--srdl2-comp:mesh_scale rdf:datatype="&xsd;string">0.45 0.45 0.45</srdl2-comp:mesh_scale-->
+		<knowrob:depthOfObject rdf:datatype="&xsd;double">15.909101</knowrob:depthOfObject>
+		<knowrob:widthOfObject rdf:datatype="&xsd;double">10.488242</knowrob:widthOfObject>
+		<knowrob:heightOfObject rdf:datatype="&xsd;double">10.504531</knowrob:heightOfObject>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Bridge_0down.dae</knowrob:pathToCadModel>
+		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoR"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="SemanticMapPerception_YU6a">
+		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
+		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_4qJH"/>
+		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
+		<knowrob:objectActedOn rdf:resource="&log;Bridge_3SXCA"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="&u-map;Transformation_4qJH">
+		<rdf:type rdf:resource="&knowrob;Transformation"/>
+		<knowrob:quaternion rdf:datatype="&xsd;string">0.42421 0.0 0.0 0.905564</knowrob:quaternion>
+		<knowrob:translation rdf:datatype="&xsd;string">150.891998 206.745071 122.0</knowrob:translation>
+	</owl:NamedIndividual>
+	<!--Foliage object Bridge_4N1YI-->
+	<owl:NamedIndividual rdf:about="&log;RoofingBridge_4N1YI">
+		<rdf:type rdf:resource="&knowrob;Roofing"/>   <!--srdl2-comp:mesh_scale rdf:datatype="&xsd;string">0.45 0.45 0.45</srdl2-comp:mesh_scale-->
+		<knowrob:depthOfObject rdf:datatype="&xsd;double">13.184999</knowrob:depthOfObject>
+		<knowrob:widthOfObject rdf:datatype="&xsd;double">11.603241</knowrob:widthOfObject>
+		<knowrob:heightOfObject rdf:datatype="&xsd;double">10.504531</knowrob:heightOfObject>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Bridge_2down.dae</knowrob:pathToCadModel>
+		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoR"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="SemanticMapPerception_vj19">
+		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
+		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_mmil"/>
+		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
+		<knowrob:objectActedOn rdf:resource="&log;RoofingBridge_4N1YI"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="&u-map;Transformation_mmil">
+		<rdf:type rdf:resource="&knowrob;Transformation"/>
+		<knowrob:quaternion rdf:datatype="&xsd;string">0.279013 0.0 0.0 0.960287</knowrob:quaternion>
+		<knowrob:translation rdf:datatype="&xsd;string">132.459335 187.166748 122.0</knowrob:translation>
+	</owl:NamedIndividual>
+	<!--Foliage object Bridge_00Cxh-->
+	<owl:NamedIndividual rdf:about="&log;RoofingBridge_00Cxh">
+		<rdf:type rdf:resource="&knowrob;Roofing"/>   
+         <!--srdl2-comp:mesh_scale rdf:datatype="&xsd;string">0.8 0.8 0.8</srdl2-comp:mesh_scale-->
+		<knowrob:depthOfObject rdf:datatype="&xsd;double">22.516874</knowrob:depthOfObject>
+		<knowrob:widthOfObject rdf:datatype="&xsd;double">14.247109</knowrob:widthOfObject>
+		<knowrob:heightOfObject rdf:datatype="&xsd;double">10.504531</knowrob:heightOfObject>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Bridge_0down.dae</knowrob:pathToCadModel>
+		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoR"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="SemanticMapPerception_L40Q">
+		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
+		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_qzTW"/>
+		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
+		<knowrob:objectActedOn rdf:resource="&log;RoofingBridge_00Cxh"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="&u-map;Transformation_qzTW">
+		<rdf:type rdf:resource="&knowrob;Transformation"/>
+		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 1.1</knowrob:quaternion> <!-- 0.553389 0.0 0.0 0.832923 -->
+		<knowrob:translation rdf:datatype="&xsd;string">334.845123 -153.5 111.4</knowrob:translation>
+	</owl:NamedIndividual>
+	<!--Foliage object Bridge_6ByRn-->
+	<owl:NamedIndividual rdf:about="&log;RoofingBridge_6ByRn">
+		<rdf:type rdf:resource="&knowrob;Roofing"/>   <!--srdl2-comp:mesh_scale rdf:datatype="&xsd;string">0.45 0.45 0.45</srdl2-comp:mesh_scale-->
+		<knowrob:depthOfObject rdf:datatype="&xsd;double">45.000469</knowrob:depthOfObject>
+		<knowrob:widthOfObject rdf:datatype="&xsd;double">7.147499</knowrob:widthOfObject>
+		<knowrob:heightOfObject rdf:datatype="&xsd;double">10.504531</knowrob:heightOfObject>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Bridge_3down.dae</knowrob:pathToCadModel>
+		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoR"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="SemanticMapPerception_OYSw">
+		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
+		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_kHjC"/>
+		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
+		<knowrob:objectActedOn rdf:resource="&log;RoofingBridge_6ByRn"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="&u-map;Transformation_kHjC">
+		<rdf:type rdf:resource="&knowrob;Transformation"/>
+		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion>
+		<knowrob:translation rdf:datatype="&xsd;string">682.0 -183.0 121.5</knowrob:translation>
+	</owl:NamedIndividual>
+	<!--Foliage object Bridge_54QgL-->
+	<owl:NamedIndividual rdf:about="&log;RoofingBridge_54QgL">
+		<rdf:type rdf:resource="&knowrob;Roofing"/>   <!--srdl2-comp:mesh_scale rdf:datatype="&xsd;string">0.45 0.45 0.45</srdl2-comp:mesh_scale-->
+		<knowrob:depthOfObject rdf:datatype="&xsd;double">30.210781</knowrob:depthOfObject>
+		<knowrob:widthOfObject rdf:datatype="&xsd;double">10.573593</knowrob:widthOfObject>
+		<knowrob:heightOfObject rdf:datatype="&xsd;double">10.504531</knowrob:heightOfObject>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Bridge_0down.dae</knowrob:pathToCadModel>
+		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoR"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="SemanticMapPerception_Tt7m">
+		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
+		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_ywC8"/>
+		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
+		<knowrob:objectActedOn rdf:resource="&log;RoofingBridge_54QgL"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="&u-map;Transformation_ywC8">
+		<rdf:type rdf:resource="&knowrob;Transformation"/>
+		<knowrob:quaternion rdf:datatype="&xsd;string">1 0 0 0.6</knowrob:quaternion>
+		<knowrob:translation rdf:datatype="&xsd;string">-263.900146 575.591064 156.007217</knowrob:translation>
+	</owl:NamedIndividual>
+	<!--Foliage object Bridge_7e1xC-->
+	<owl:NamedIndividual rdf:about="&log;RoofingBridge_7e1xC">
+		<rdf:type rdf:resource="&knowrob;Roofing"/>   <!--srdl2-comp:mesh_scale rdf:datatype="&xsd;string">0.45 0.45 0.45</srdl2-comp:mesh_scale-->
+		<knowrob:depthOfObject rdf:datatype="&xsd;double">25.830467</knowrob:depthOfObject>
+		<knowrob:widthOfObject rdf:datatype="&xsd;double">10.48414</knowrob:widthOfObject>
+		<knowrob:heightOfObject rdf:datatype="&xsd;double">10.504531</knowrob:heightOfObject>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Bridge_0down.dae</knowrob:pathToCadModel>
+		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoR"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="SemanticMapPerception_IKzu">
+		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
+		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_Pp6I"/>
+		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
+		<knowrob:objectActedOn rdf:resource="&log;RoofingBridge_7e1xC"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="&u-map;Transformation_Pp6I">
+		<rdf:type rdf:resource="&knowrob;Transformation"/>
+		<knowrob:quaternion rdf:datatype="&xsd;string">0.86603 0.0 0.0 -0.5</knowrob:quaternion>
+		<knowrob:translation rdf:datatype="&xsd;string">-308.284302 577.575989 159.512787</knowrob:translation>
+	</owl:NamedIndividual>
+	<!--Foliage object Tunnel_22bRR-->
+	<owl:NamedIndividual rdf:about="&log;RoofingTunnel_22bRR">
+		<rdf:type rdf:resource="&knowrob;Roofing"/>
+		<knowrob:depthOfObject rdf:datatype="&xsd;double">17.722813</knowrob:depthOfObject>
+		<knowrob:widthOfObject rdf:datatype="&xsd;double">16.557812</knowrob:widthOfObject>
+		<knowrob:heightOfObject rdf:datatype="&xsd;double">10.426875</knowrob:heightOfObject>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Tunnel_down.dae</knowrob:pathToCadModel>
+		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoR"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="SemanticMapPerception_3ofq">
+		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
+		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_XQ0A"/>
+		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
+		<knowrob:objectActedOn rdf:resource="&log;RoofingTunnel_22bRR"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="&u-map;Transformation_XQ0A">
+		<rdf:type rdf:resource="&knowrob;Transformation"/>
+		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion>
+		<knowrob:translation rdf:datatype="&xsd;string">-335.852539 558.83905 173.666656</knowrob:translation>
+	</owl:NamedIndividual>
+	<!--Foliage object Tunnel_1pMeo-->
+	<owl:NamedIndividual rdf:about="&log;RoofingTunnel_1pMeo">
+		<rdf:type rdf:resource="&knowrob;Roofing"/>
+		<knowrob:depthOfObject rdf:datatype="&xsd;double">17.577108</knowrob:depthOfObject>
+		<knowrob:widthOfObject rdf:datatype="&xsd;double">14.750546</knowrob:widthOfObject>
+		<knowrob:heightOfObject rdf:datatype="&xsd;double">12.418711</knowrob:heightOfObject>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Tunneldown.dae</knowrob:pathToCadModel>
+		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoR"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="SemanticMapPerception_XYSm">
+		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
+		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_MmoE"/>
+		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
+		<knowrob:objectActedOn rdf:resource="&log;RoofingTunnel_1pMeo"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="&u-map;Transformation_MmoE">
+		<rdf:type rdf:resource="&knowrob;Transformation"/>
+		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 -0.1</knowrob:quaternion>
+		<knowrob:translation rdf:datatype="&xsd;string">326.798737 -156.985733 120.627632</knowrob:translation>
+	</owl:NamedIndividual>
+
+	<!--Foliage object Cottage_1R5kR-->
+	<owl:NamedIndividual rdf:about="&log;RoofingCottage_1R5kR">
+		<rdf:type rdf:resource="&knowrob;Roofing"/>
+		<knowrob:depthOfObject rdf:datatype="&xsd;double">9.610703</knowrob:depthOfObject>
+		<knowrob:widthOfObject rdf:datatype="&xsd;double">6.759609</knowrob:widthOfObject>
+		<knowrob:heightOfObject rdf:datatype="&xsd;double">6.374648</knowrob:heightOfObject>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Cottage_down.dae</knowrob:pathToCadModel>
+		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoR"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="SemanticMapPerception_Okpo">
+		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
+		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_q2Ix"/>
+		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
+		<knowrob:objectActedOn rdf:resource="&log;RoofingCottage_1R5kR"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="&u-map;Transformation_q2Ix">
+		<rdf:type rdf:resource="&knowrob;Transformation"/>
+		<knowrob:quaternion rdf:datatype="&xsd;string">0.766043 0.0 0.0 -0.642789</knowrob:quaternion>
+		<knowrob:translation rdf:datatype="&xsd;string">590.349976 -295.0 184.599991</knowrob:translation>
+	</owl:NamedIndividual>
+
+
+
+</rdf:RDF>
+
