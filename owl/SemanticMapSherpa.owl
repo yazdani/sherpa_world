@@ -48909,62 +48909,51 @@
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">1.0</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">2.0</knowrob:heightOfObject>
 		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/RoadCircle.dae</knowrob:pathToCadModel>
-		<knowrob:translation rdf:datatype="&xsd;string">587.074157 -305.421792 180.492264</knowrob:translation>
+		<knowrob:partOf rdf:resource="&log;MountainRoad_B50s"/>
+		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="SemanticMapPerception_r1gNF">
+		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
+		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_M22UF"/>
+		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
+		<knowrob:objectActedOn rdf:resource="&log;RoadSegment_ULIF"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="&u-map;Transformation_M22UF">
+		<rdf:type rdf:resource="&knowrob;Transformation"/>
+		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion>
+		<knowrob:translation rdf:datatype="&xsd;string">591.074157 -312.421792 178.492264</knowrob:translation>
 		<!-- 1.39978 -8.61196 0.0-->
 		<!--knowrob:translation rdf:datatype="&xsd;string">585.674377 -314.033752 180.492264</knowrob:translation-->
 	</owl:NamedIndividual>
 	<!--Foliage object RoadSegment_QrPf-->
-	<owl:NamedIndividual rdf:about="&log;RoadSegment_QrPf">
-		<rdf:type rdf:resource="&knowrob;RoadSegment"/>
-		<knowrob:depthOfObject rdf:datatype="&xsd;double">1.0</knowrob:depthOfObject>
-		<knowrob:widthOfObject rdf:datatype="&xsd;double">1.0</knowrob:widthOfObject>
-		<knowrob:heightOfObject rdf:datatype="&xsd;double">2.0</knowrob:heightOfObject>
-		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Road05.dae</knowrob:pathToCadModel>
-		<knowrob:partOf rdf:resource="&log;MountainRoad_B50s"/>
-		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/>
-	</owl:NamedIndividual>
-	<owl:NamedIndividual rdf:about="SemanticMapPerception_r1gN">
-		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
-		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_M22U"/>
-		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
-		<knowrob:objectActedOn rdf:resource="&log;RoadSegment_ULIF"/>
-	</owl:NamedIndividual>
-	<owl:NamedIndividual rdf:about="&u-map;Transformation_M22U">
-		<rdf:type rdf:resource="&knowrob;Transformation"/>
-		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">592.0 -313.0 179.0</knowrob:translation>
-	</owl:NamedIndividual>
-	<!--Foliage object RoadSegment_test088-->
-	<owl:NamedIndividual rdf:about="&log;RoadSegment_test088">
-		<rdf:type rdf:resource="&knowrob;RoadSegment"/>
-		<knowrob:depthOfObject rdf:datatype="&xsd;double">1.0</knowrob:depthOfObject>
-		<knowrob:widthOfObject rdf:datatype="&xsd;double">1.0</knowrob:widthOfObject>
-		<knowrob:heightOfObject rdf:datatype="&xsd;double">2.0</knowrob:heightOfObject>
-		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/RoadSegment.dae</knowrob:pathToCadModel>
-		<knowrob:partOf rdf:resource="&log;MountainRoad_B50s"/>
-		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/>
-	</owl:NamedIndividual>
-	<owl:NamedIndividual rdf:about="SemanticMapPerception_test088">
-		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
-		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_test088"/>
-		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
-		<knowrob:objectActedOn rdf:resource="&log;RoadSegment_test088"/>
-	</owl:NamedIndividual>
-	<owl:NamedIndividual rdf:about="&u-map;Transformation_test088">
-		<rdf:type rdf:resource="&knowrob;Transformation"/>
-		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion>
-		<!--knowrob:translation rdf:datatype="&xsd;string">498.462494 -220.050613 140.707733</knowrob:translation-->
-		<knowrob:translation rdf:datatype="&xsd;string">604.382367 -302.460591 180.605225</knowrob:translation>
-		<!-- 5.09892 6.08253 0.0-->
-		<!--knowrob:translation rdf:datatype="&xsd;string">599.283447 -308.543121 180.605225</knowrob:translation-->
-	</owl:NamedIndividual>
+	<!-- <owl:NamedIndividual rdf:about="&log;RoadSegment_QrPf"> -->
+	<!-- 	<rdf:type rdf:resource="&knowrob;RoadSegment"/> -->
+	<!-- 	<knowrob:depthOfObject rdf:datatype="&xsd;double">1.0</knowrob:depthOfObject> -->
+	<!-- 	<knowrob:widthOfObject rdf:datatype="&xsd;double">1.0</knowrob:widthOfObject> -->
+	<!-- 	<knowrob:heightOfObject rdf:datatype="&xsd;double">2.0</knowrob:heightOfObject> -->
+	<!-- 	<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Road0Segment.dae</knowrob:pathToCadModel> -->
+	<!-- 	<knowrob:partOf rdf:resource="&log;MountainRoad_B50s"/> -->
+	<!-- 	<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/> -->
+	<!-- </owl:NamedIndividual> -->
+	<!-- <owl:NamedIndividual rdf:about="SemanticMapPerception_r1gN"> -->
+	<!-- 	<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/> -->
+	<!-- 	<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_M22U"/> -->
+	<!-- 	<knowrob:startTime rdf:resource="&u-map;timepoint_0"/> -->
+	<!-- 	<knowrob:objectActedOn rdf:resource="&log;RoadSegment_QrPf"/> -->
+	<!-- </owl:NamedIndividual> -->
+	<!-- <owl:NamedIndividual rdf:about="&u-map;Transformation_M22U"> -->
+	<!-- 	<rdf:type rdf:resource="&knowrob;Transformation"/> -->
+	<!-- 	<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion> -->
+	<!-- 	<knowrob:translation rdf:datatype="&xsd;string">592.0 -313.0 179.0</knowrob:translation> -->
+	<!-- </owl:NamedIndividual> -->
+
 	<!--Foliage object RoadSegment_test087-->
 	<owl:NamedIndividual rdf:about="&log;RoadSegment_test087">
 		<rdf:type rdf:resource="&knowrob;RoadSegment"/>
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">1.0</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">1.0</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">2.0</knowrob:heightOfObject>
-		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/Road01.dae</knowrob:pathToCadModel>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/RoadSegment.dae</knowrob:pathToCadModel>
 		<knowrob:partOf rdf:resource="&log;MountainRoad_B50s"/>
 		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/>
 	</owl:NamedIndividual>
@@ -49000,7 +48989,31 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_tOrv">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 -0.2 0.0 0.6</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">494.462494 -212.050613 139.707733</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">494.462494 -212.050613 138.707733</knowrob:translation>
+	</owl:NamedIndividual>
+	<!--Foliage object RoadSegment_test088-->
+	<owl:NamedIndividual rdf:about="&log;RoadSegment_test088">
+		<rdf:type rdf:resource="&knowrob;RoadSegment"/>
+		<knowrob:depthOfObject rdf:datatype="&xsd;double">1.0</knowrob:depthOfObject>
+		<knowrob:widthOfObject rdf:datatype="&xsd;double">1.0</knowrob:widthOfObject>
+		<knowrob:heightOfObject rdf:datatype="&xsd;double">2.0</knowrob:heightOfObject>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/RoadSegment.dae</knowrob:pathToCadModel>
+		<knowrob:partOf rdf:resource="&log;MountainRoad_B50s"/>
+		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="SemanticMapPerception_test088">
+		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
+		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_test088"/>
+		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
+		<knowrob:objectActedOn rdf:resource="&log;RoadSegment_test088"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="&u-map;Transformation_test088">
+		<rdf:type rdf:resource="&knowrob;Transformation"/>
+		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 -0.2 0.0 0.6</knowrob:quaternion>
+		<!--knowrob:translation rdf:datatype="&xsd;string">498.462494 -220.050613 140.707733</knowrob:translation-->
+		<knowrob:translation rdf:datatype="&xsd;string">503.462494 -220.050613 139.707733</knowrob:translation>
+		<!-- 5.09892 6.08253 0.0-->
+		<!--knowrob:translation rdf:datatype="&xsd;string">599.283447 -308.543121 180.605225</knowrob:translation-->
 	</owl:NamedIndividual>
 	<!--Foliage object RoadSegment_test071-->
 	<owl:NamedIndividual rdf:about="&log;RoadSegment_test071">
@@ -51040,27 +51053,27 @@
 		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 -0.1 0.0 -0.4</knowrob:quaternion>
 		<knowrob:translation rdf:datatype="&xsd;string">436.856232 -277.562805 152.853271</knowrob:translation>
 	</owl:NamedIndividual>
-	<!--Foliage object RoadSegment_test087-->
-	<owl:NamedIndividual rdf:about="&log;RoadSegment_test087">
-		<rdf:type rdf:resource="&knowrob;RoadSegment"/>
-		<knowrob:depthOfObject rdf:datatype="&xsd;double">1.0</knowrob:depthOfObject>
-		<knowrob:widthOfObject rdf:datatype="&xsd;double">1.0</knowrob:widthOfObject>
-		<knowrob:heightOfObject rdf:datatype="&xsd;double">2.0</knowrob:heightOfObject>
-		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/RoadSegment.dae</knowrob:pathToCadModel>
-		<knowrob:partOf rdf:resource="&log;MountainRoad_B50s"/>
-		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/>
-	</owl:NamedIndividual>
-	<owl:NamedIndividual rdf:about="SemanticMapPerception_test087">
-		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
-		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_test087"/>
-		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
-		<knowrob:objectActedOn rdf:resource="&log;RoadSegment_test087"/>
-	</owl:NamedIndividual>
-	<owl:NamedIndividual rdf:about="&u-map;Transformation_test087">
-		<rdf:type rdf:resource="&knowrob;Transformation"/>
-		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 -0.1 0.0 -0.6</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">-323.212799 567.702148 168.636795</knowrob:translation>
-	</owl:NamedIndividual>
+	<!--Foliage object RoadSegment_test087--> 
+	<!-- <owl:NamedIndividual rdf:about="&log;RoadSegment_test087"> -->
+	<!-- 	<rdf:type rdf:resource="&knowrob;RoadSegment"/> -->
+	<!-- 	<knowrob:depthOfObject rdf:datatype="&xsd;double">1.0</knowrob:depthOfObject> -->
+	<!-- 	<knowrob:widthOfObject rdf:datatype="&xsd;double">1.0</knowrob:widthOfObject> -->
+	<!-- 	<knowrob:heightOfObject rdf:datatype="&xsd;double">2.0</knowrob:heightOfObject> -->
+	<!-- 	<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/RoadSegment.dae</knowrob:pathToCadModel> -->
+	<!-- 	<knowrob:partOf rdf:resource="&log;MountainRoad_B50s"/> -->
+	<!-- 	<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoY"/> -->
+	<!-- </owl:NamedIndividual> -->
+	<!-- <owl:NamedIndividual rdf:about="SemanticMapPerception_test087"> -->
+	<!-- 	<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/> -->
+	<!-- 	<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_test087"/> -->
+	<!-- 	<knowrob:startTime rdf:resource="&u-map;timepoint_0"/> -->
+	<!-- 	<knowrob:objectActedOn rdf:resource="&log;RoadSegment_test087"/> -->
+	<!-- </owl:NamedIndividual> -->
+	<!-- <owl:NamedIndividual rdf:about="&u-map;Transformation_test087"> -->
+	<!-- 	<rdf:type rdf:resource="&knowrob;Transformation"/> -->
+	<!-- 	<knowrob:quaternion rdf:datatype="&xsd;string">1.0 -0.1 0.0 -0.6</knowrob:quaternion> -->
+	<!-- 	<knowrob:translation rdf:datatype="&xsd;string">-323.212799 567.702148 168.636795</knowrob:translation> -->
+	<!-- </owl:NamedIndividual> -->
 	<!--Foliage object RoadSegment_IhAY-->
 	<owl:NamedIndividual rdf:about="&log;RoadSegment_IhAY">
 		<rdf:type rdf:resource="&knowrob;RoadSegment"/>
@@ -51877,8 +51890,8 @@
 	</owl:NamedIndividual>
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_test006">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
-		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.6</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">478.994995 -201.0 123.565933</knowrob:translation>
+		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 -0.1 0.0 0.6</knowrob:quaternion>
+		<knowrob:translation rdf:datatype="&xsd;string">478.994995 -201.0 128.565933</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object RoadSegment_oywf-->
 	<owl:NamedIndividual rdf:about="&log;RoadSegment_oywf">
