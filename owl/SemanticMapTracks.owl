@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rdf:RDF[ 
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns">
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema">
+	<!ENTITY owl "http://www.w3.org/2002/07/owl">
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+	<!ENTITY knowrob "http://knowrob.org/kb/knowrob.owl#">
+	<!ENTITY knowrob_u "http://knowrob.org/kb/knowrob_u.owl#">
+	<!ENTITY log "http://knowrob.org/kb/unreal_log.owl#">
+	<!ENTITY u-map "http://knowrob.org/kb/u_map.owl#">
+]>
+
+<rdf:RDF xmlns:computable="http://knowrob.org/kb/computable.owl#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:knowrob="http://knowrob.org/kb/knowrob.owl#" xmlns:knowrob_u="http://knowrob.org/kb/knowrob_u.owl#" xmlns:u-map="http://knowrob.org/kb/u_map.owl#" xmlns:srdl2-comp="http://knowrob.org/kb/srdl2-comp.owl#" xml:base="http://knowrob.org/kb/u_map.owl#">
+	<!--Ontologies-->
+	<owl:Ontology rdf:about="http://knowrob.org/kb/u_map.owl">
+		<owl:imports rdf:resource="package://knowrob_common/owl/knowrob.owl"/>
+		<owl:imports rdf:resource="package://sherpa_world/owl/knowrob_sherpa.owl"/>
+		<owl:imports rdf:resource="package://sherpa_world/owl/sherpa_robots.owl"/>
+                <owl:imports rdf:resource="package://knowrob_srdl/owl/srdl2-comp.owl"/>
+	</owl:Ontology>
+	<!--Property Definitions-->
+	<owl:ObjectProperty rdf:about="&knowrob;describedInMap"/>
+	<!--Datatype Definitions-->
+	<owl:DatatypeProperty rdf:about="&knowrob;depthOfObject"/>
+	<owl:DatatypeProperty rdf:about="&knowrob;heightOfObject"/>
+	<owl:DatatypeProperty rdf:about="&knowrob;widthOfObject"/>
+	<owl:DatatypeProperty rdf:about="&knowrob;vectorX"/>
+	<owl:DatatypeProperty rdf:about="&knowrob;vectorY"/>
+	<owl:DatatypeProperty rdf:about="&knowrob;vectorZ"/>
+	<owl:DatatypeProperty rdf:about="&knowrob;pathToCadModel"/>
+	<!--Class Definitions-->
+	<owl:Class rdf:about="&knowrob;SemanticEnvironmentMap"/>
+	<owl:Class rdf:about="&knowrob;SemanticMapPerception"/>
+	<owl:Class rdf:about="&knowrob;TimePoint"/>
+	<owl:Class rdf:about="&knowrob;Vector"/>
+	<!--Semantic Environment Map-->
+	<owl:NamedIndividual rdf:about="&u-map;USemMap_twoT">
+		<rdf:type rdf:resource="&knowrob;SemanticEnvironmentMap"/>
+	</owl:NamedIndividual>
+	<!--Timepoint-->
+	<owl:NamedIndividual rdf:about="&u-map;timepoint_0">
+		<rdf:type rdf:resource="&knowrob;Timepoint"/>
+	</owl:NamedIndividual>
+
+	<!--Mountain road MountainRoad_B50s-->
+	<owl:NamedIndividual rdf:about="&log;MountainRoad_B50s">
+		<rdf:type rdf:resource="&knowrob;Road"/>
+		<knowrob:nrOfSegments rdf:datatype="&xsd;int">94</knowrob:nrOfSegments>
+		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoT"/>
+	</owl:NamedIndividual>
+
+	<!--Foliage object GPSTracks_car_circle-->
+	<!-- <owl:NamedIndividual rdf:about="&log;GPSTracks_circle"> -->
+	<!-- 	<rdf:type rdf:resource="&knowrob;GPSTracks"/> -->
+	<!-- 	<knowrob:depthOfObject rdf:datatype="&xsd;double">0.0</knowrob:depthOfObject> -->
+	<!-- 	<knowrob:widthOfObject rdf:datatype="&xsd;double">0.0</knowrob:widthOfObject> -->
+	<!-- 	<knowrob:heightOfObject rdf:datatype="&xsd;double">0.0</knowrob:heightOfObject> -->
+	<!-- 	<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/tracks/car_circle01.dae</knowrob:pathToCadModel> -->
+		<!--knowrob:partOf rdf:resource="&log;MountainRoad_B50s"/-->
+	<!-- 	<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoT"/> -->
+	<!-- </owl:NamedIndividual> -->
+	<!-- <owl:NamedIndividual rdf:about="SemanticMapPerception_circle"> -->
+	<!-- 	<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/> -->
+	<!-- 	<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_circle"/> -->
+	<!-- 	<knowrob:startTime rdf:resource="&u-map;timepoint_0"/> -->
+	<!-- 	<knowrob:objectActedOn rdf:resource="&log;GPSTracks_circle"/> -->
+	<!-- </owl:NamedIndividual> -->
+	<!-- <owl:NamedIndividual rdf:about="&u-map;Transformation_circle"> -->
+	<!-- 	<rdf:type rdf:resource="&knowrob;Transformation"/> -->
+	<!-- 	<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 1.0</knowrob:quaternion> -->
+	<!-- 	<knowrob:translation rdf:datatype="&xsd;string">582.283447 -320.543121 180.605225</knowrob:translation> -->
+	<!-- </owl:NamedIndividual> -->
+
+	<!--Foliage object GPSTracks_car_path01-->
+	<owl:NamedIndividual rdf:about="&log;GPSTracks_car_path">
+		<rdf:type rdf:resource="&knowrob;GPSTracks"/>
+		<knowrob:depthOfObject rdf:datatype="&xsd;double">0.0</knowrob:depthOfObject>
+		<knowrob:widthOfObject rdf:datatype="&xsd;double">0.0</knowrob:widthOfObject>
+		<knowrob:heightOfObject rdf:datatype="&xsd;double">0.0</knowrob:heightOfObject>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/tracks/old_tracks/carall.dae</knowrob:pathToCadModel>
+		<!--knowrob:partOf rdf:resource="&log;MountainRoad_B50s"/-->
+		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoT"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="SemanticMapPerception_car_path">
+		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
+		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_car_path"/>
+		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
+		<knowrob:objectActedOn rdf:resource="&log;GPSTracks_car_path"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="&u-map;Transformation_car_path">
+		<rdf:type rdf:resource="&knowrob;Transformation"/>
+		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion>
+		<knowrob:translation rdf:datatype="&xsd;string">460.060608 -310.0 170.74585</knowrob:translation>
+	</owl:NamedIndividual>
+
+	<!--Foliage object GPSTracks_car_path02-->
+	<!-- <owl:NamedIndividual rdf:about="&log;GPSTracks_path02"> -->
+	<!-- 	<rdf:type rdf:resource="&knowrob;GPSTracks"/> -->
+	<!-- 	<knowrob:depthOfObject rdf:datatype="&xsd;double">0.0</knowrob:depthOfObject> -->
+	<!-- 	<knowrob:widthOfObject rdf:datatype="&xsd;double">0.0</knowrob:widthOfObject> -->
+	<!-- 	<knowrob:heightOfObject rdf:datatype="&xsd;double">0.0</knowrob:heightOfObject> -->
+	<!-- 	<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/tracks/car_path02.dae</knowrob:pathToCadModel> -->
+		<!--knowrob:partOf rdf:resource="&log;MountainRoad_B50s"/-->
+	<!-- 	<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoT"/> -->
+	<!-- </owl:NamedIndividual> -->
+	<!-- <owl:NamedIndividual rdf:about="SemanticMapPerception_path02"> -->
+	<!-- 	<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/> -->
+	<!-- 	<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_path02"/> -->
+	<!-- 	<knowrob:startTime rdf:resource="&u-map;timepoint_0"/> -->
+	<!-- 	<knowrob:objectActedOn rdf:resource="&log;GPSTracks_path02"/> -->
+	<!-- </owl:NamedIndividual> -->
+	<!-- <owl:NamedIndividual rdf:about="&u-map;Transformation_path02"> -->
+	<!-- 	<rdf:type rdf:resource="&knowrob;Transformation"/> -->
+	<!-- 	<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion> -->
+	<!-- 	<knowrob:translation rdf:datatype="&xsd;string">-113.085938 286.910309 143.250931</knowrob:translation> -->
+	<!-- </owl:NamedIndividual> -->
+	<!--Foliage object GPSTracks_car_path03-->
+	<!-- <owl:NamedIndividual rdf:about="&log;GPSTracks_path03"> -->
+	<!-- 	<rdf:type rdf:resource="&knowrob;GPSTracks"/> -->
+	<!-- 	<knowrob:depthOfObject rdf:datatype="&xsd;double">0.0</knowrob:depthOfObject> -->
+	<!-- 	<knowrob:widthOfObject rdf:datatype="&xsd;double">0.0</knowrob:widthOfObject> -->
+	<!-- 	<knowrob:heightOfObject rdf:datatype="&xsd;double">0.0</knowrob:heightOfObject> -->
+	<!-- 	<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/tracks/car_path03.dae</knowrob:pathToCadModel> -->
+		<!--knowrob:partOf rdf:resource="&log;MountainRoad_B50s"/-->
+	<!-- 	<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoT"/> -->
+	<!-- </owl:NamedIndividual> -->
+	<!-- <owl:NamedIndividual rdf:about="SemanticMapPerception_path03"> -->
+	<!-- 	<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/> -->
+	<!-- 	<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_path03"/> -->
+	<!-- 	<knowrob:startTime rdf:resource="&u-map;timepoint_0"/> -->
+	<!-- 	<knowrob:objectActedOn rdf:resource="&log;GPSTracks_path03"/> -->
+	<!-- </owl:NamedIndividual> -->
+	<!-- <owl:NamedIndividual rdf:about="&u-map;Transformation_path03"> -->
+	<!-- 	<rdf:type rdf:resource="&knowrob;Transformation"/> -->
+	<!-- 	<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion> -->
+	<!-- 	<knowrob:translation rdf:datatype="&xsd;string">390.283447 120.543121 115.605225</knowrob:translation> -->
+	<!-- </owl:NamedIndividual> -->
+	<!--Foliage object GPSTracks_feet_path01-->
+	<owl:NamedIndividual rdf:about="&log;GPSTracks_feet_path">
+		<rdf:type rdf:resource="&knowrob;GPSTracks"/>
+		<knowrob:depthOfObject rdf:datatype="&xsd;double">0.0</knowrob:depthOfObject>
+		<knowrob:widthOfObject rdf:datatype="&xsd;double">0.0</knowrob:widthOfObject>
+		<knowrob:heightOfObject rdf:datatype="&xsd;double">0.0</knowrob:heightOfObject>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/tracks/old_tracks/footall.dae</knowrob:pathToCadModel>
+		<!--knowrob:partOf rdf:resource="&log;MountainRoad_B50s"/-->
+		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoT"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="SemanticMapPerception_feet_path">
+		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
+		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_feet_path"/>
+		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
+		<knowrob:objectActedOn rdf:resource="&log;GPSTracks_feet_path"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="&u-map;Transformation_feet_path">
+		<rdf:type rdf:resource="&knowrob;Transformation"/>
+		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion>
+		<knowrob:translation rdf:datatype="&xsd;string">460.060608 -309.0 170.74585</knowrob:translation>
+	</owl:NamedIndividual>
+
+	<!--Foliage object GPSTracks_feet_circle-->
+	<owl:NamedIndividual rdf:about="&log;GPSTracks_feet_circle">
+		<rdf:type rdf:resource="&knowrob;GPSTracks"/>
+		<knowrob:depthOfObject rdf:datatype="&xsd;double">0.0</knowrob:depthOfObject>
+		<knowrob:widthOfObject rdf:datatype="&xsd;double">0.0</knowrob:widthOfObject>
+		<knowrob:heightOfObject rdf:datatype="&xsd;double">0.0</knowrob:heightOfObject>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/tracks/feet_circle.dae</knowrob:pathToCadModel>
+		<knowrob:describedInMap rdf:resource="&u-map;USemMap_twoT"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="SemanticMapPerception_feet_circle">
+		<rdf:type rdf:resource="&knowrob;SemanticMapPerception"/>
+		<knowrob:eventOccursAt rdf:resource="&u-map;Transformation_feet_circle"/>
+		<knowrob:startTime rdf:resource="&u-map;timepoint_0"/>
+		<knowrob:objectActedOn rdf:resource="&log;GPSTracks_feet_circle"/>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="&u-map;Transformation_feet_circle">
+		<rdf:type rdf:resource="&knowrob;Transformation"/>
+		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion>
+		<knowrob:translation rdf:datatype="&xsd;string">591.283447 -315.543121 182.605225</knowrob:translation>
+	</owl:NamedIndividual>
+
+
+</rdf:RDF>

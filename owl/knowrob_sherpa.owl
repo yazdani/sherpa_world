@@ -256,7 +256,7 @@
 
     <!-- http://knowrob.org/kb/knowrob.owl#Roofing -->
 
-    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#RoofingBridge">
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#Roofing">
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#SpatialThing-Localized"/>
     </owl:Class>
     
@@ -268,7 +268,7 @@
     <!-- http://knowrob.org/kb/knowrob.owl#Building -->
 
     <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#Building">
-        <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#SpatialThing-Localized"/>
+        <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#Roofing"/>
     </owl:Class>
     
      <!-- http://knowrob.org/kb/knowrob.owl#Helipad -->
@@ -281,7 +281,9 @@
     <!-- http://knowrob.org/kb/knowrob.owl#BusyGenius -->
 
     <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#BusyGenius">
+	<rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#TeamMate"/>
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#Agent-Generic"/>
+	<rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#TeamLeader"/>
     </owl:Class>
     
 
@@ -377,7 +379,13 @@
 
     <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#FlyingRobot"/>
     
+    <!-- http://knowrob.org/kb/knowrob.owl#TeamMate -->
 
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#TeamMate"/>
+
+    <!-- http://knowrob.org/kb/knowrob.owl#TeamMate -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#TeamLeader"/>
 
     <!-- http://knowrob.org/kb/knowrob.owl#FrozenLake -->
 
@@ -385,7 +393,9 @@
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#Lake"/>
     </owl:Class>
     
-
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#FrozenSegLake">
+        <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#Lake"/>
+    </owl:Class>
 
     <!-- http://knowrob.org/kb/knowrob.owl#GISPolygon -->
 
@@ -393,7 +403,18 @@
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#SpatialThing-Localized"/>
     </owl:Class>
     
+    <!-- http://knowrob.org/kb/knowrob.owl#GISPolygon -->
 
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#ForestPolygon">
+        <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#GISPolygon"/>
+    </owl:Class>
+
+   <!-- http://knowrob.org/kb/knowrob.owl#GPSTracks -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#GPSTracks">
+        <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#SpatialThing-Localized"/>
+    </owl:Class>
+    
 
     <!-- http://knowrob.org/kb/knowrob.owl#HangGlider -->
 
@@ -442,6 +463,11 @@
     </owl:Class>
     
 
+    <!-- http://knowrob.org/kb/knowrob.owl#Weather -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#Weather">
+        <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#SpatialThing-Localized"/>
+    </owl:Class>
 
     <!-- http://knowrob.org/kb/knowrob.owl#MovementThroughAir -->
 
@@ -646,6 +672,7 @@
     <!-- http://knowrob.org/kb/knowrob.owl#SherpaDonkey -->
 
     <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaDonkey">
+	<rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#TeamMate"/>
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#RoverCar"/>
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#WheeledRobot"/>
         <rdfs:subClassOf>
@@ -772,6 +799,7 @@
 
     <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaHawk">
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#FlyingRobot"/>
+	<rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#TeamMate"/>
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#Helicopter"/>
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#UnmannedAircraft"/>
         <rdfs:subClassOf>
@@ -882,6 +910,7 @@
 
     <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaWasp">
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#FlyingRobot"/>
+	<rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#TeamMate"/>
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#QuadCopter"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -946,6 +975,7 @@
     <!-- http://knowrob.org/kb/knowrob.owl#SherpaWaspBlue -->
 
     <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaWaspBlue">
+	<rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#TeamMate"/>
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaWasp"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1006,6 +1036,7 @@
     <!-- http://knowrob.org/kb/knowrob.owl#SherpaWaspRed -->
 
     <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SherpaWaspRed">
+	<rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#TeamMate"/>
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaWasp"/>
         <rdfs:subClassOf>
             <owl:Restriction>
