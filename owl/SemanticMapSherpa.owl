@@ -1013,7 +1013,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_B5dV">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.975933 0.00136 -0.006089 0.217981</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">450.943115 -166.138123 117.221169</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">450.943115 -166.138123 109.221169</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_BEbq-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_BEbq">
@@ -3933,7 +3933,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_WNbe">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.56133 -0.015679 -0.010638 -0.827375</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">358.25061 -282.888733 174.502029</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">358.25061 -282.888733 152.502029</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_4NMV-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_4NMV">
@@ -3953,7 +3953,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_ShJB">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.529612 -0.002594 -0.00162 -0.848234</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">368.5 -281.108124 174.0271</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">368.5 -281.108124 156.0271</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_sJSj-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_sJSj">
@@ -3973,7 +3973,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_4JuI">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.098711 -0.022394 -0.002222 -0.994862</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">370.090607 -285.527191 173.733597</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">370.090607 -285.527191 159.733597</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_V5vy-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_V5vy">
@@ -4253,7 +4253,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_vvhg">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.788596 -0.029558 -0.038024 -0.613023</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">502.970306 -279.587799 168.506866</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">502.970306 -279.587799 160.506866</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_MS83-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_MS83">
@@ -4413,7 +4413,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_dML6">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">-0.40595 -0.014006 0.006222 -0.913767</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">436.252167 -312.701874 165.876175</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">436.252167 -312.701874 154.876175</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_ENLd-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_ENLd">
@@ -4433,7 +4433,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_BO3m">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.993965 0.004852 -0.049257 0.0979</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">510.484375 -280.139984 168.123596</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">510.484375 -280.139984 160.123596</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_Fx3o-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_Fx3o">
@@ -4473,7 +4473,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_cK5u">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.989779 0.005452 -0.039407 0.136946</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">475.526642 -295.860687 163.242355</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">475.526642 -295.860687 154.242355</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_pltF-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_pltF">
@@ -4513,7 +4513,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_svb9">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.212346 -0.02477 -0.005384 -0.976866</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">460.97937 -332.611542 165.747574</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">460.97937 -332.611542 162.747574</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_Ugdl-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_Ugdl">
@@ -5273,7 +5273,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_MAgY">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.405078 -0.035544 -0.015762 -0.913455</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">511.196228 -486.490601 177.082733</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">511.196228 -486.490601 186.082733</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_UiPp-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_UiPp">
@@ -7753,7 +7753,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_XljF">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.511117 -0.026437 -0.015731 -0.85896</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">591.71283 189.749832 131.329834</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">591.71283 189.749832 137.329834</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_u9Sf-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_u9Sf">
@@ -9253,7 +9253,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_siJw">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.967072 0.00876 -0.0336 0.252124</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">557.147156 -374.068756 163.812729</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">557.147156 -374.068756 169.812729</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_Ed3v-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_Ed3v">
@@ -9453,7 +9453,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_07fe">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.194266 -0.046553 -0.00923 -0.9798</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">526.424072 -386.258728 163.496719</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">526.424072 -386.258728 169.496719</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_lYUn-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_lYUn">
@@ -9533,7 +9533,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_YkBX">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.993521 -0.000912 -0.007995 -0.113366</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">563.974365 -385.369049 164.760849</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">563.974365 -385.369049 171.760849</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_lTyG-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_lTyG">
@@ -9553,7 +9553,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_P8Xk">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.90031 0.017101 -0.035519 0.43346</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">558.200623 -385.714355 164.500229</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">558.200623 -385.714355 170.500229</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_e5vb-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_e5vb">
@@ -9673,7 +9673,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_EFaO">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.126027 -0.028073 -0.003568 -0.991623</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">516.849976 -390.839996 165.358047</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">516.849976 -390.839996 169.358047</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_otm9-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_otm9">
@@ -9813,7 +9813,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_1idr">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">-0.096527 -0.016972 0.001646 -0.995184</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">523.395935 -394.21405 164.592575</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">523.395935 -394.21405 170.592575</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_dKsf-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_dKsf">
@@ -9893,7 +9893,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_9yJo">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.565673 -0.009135 -0.006267 -0.824555</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">497.47937 -393.190613 170.578827</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">497.47937 -393.190613 173.578827</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_1OCs-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_1OCs">
@@ -9913,7 +9913,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_vzZ2">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.341483 -0.041427 -0.015068 -0.938854</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">511.369995 -395.429688 167.032806</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">511.369995 -395.429688 171.032806</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_aXqL-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_aXqL">
@@ -9933,7 +9933,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_RXuE">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.234108 -0.025527 -0.006149 -0.971856</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">504.374359 -394.594666 169.003433</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">504.374359 -394.594666 171.003433</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_Wne4-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_Wne4">
@@ -10173,7 +10173,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_nCbV">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.19956 -0.002755 -0.000561 -0.979882</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">475.971863 -290.643127 168.269836</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">475.971863 -290.643127 158.269836</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_W4nZ-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_W4nZ">
@@ -10233,7 +10233,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_TxTQ">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">-0.003018 -0.037073 0.000112 -0.999308</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">541.200928 -497.380615 175.438049</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">541.200928 -497.380615 185.438049</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_gLek-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_gLek">
@@ -10513,7 +10513,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_0N2H">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.315738 -0.001806 -0.000601 -0.948844</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">544.959656 -489.572815 174.05867</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">544.959656 -489.572815 185.05867</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_iLBy-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_iLBy">
@@ -10973,7 +10973,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_gFJB">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.762835 0.005711 -0.006738 0.646533</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">440.062439 -321.284363 167.318039</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">440.062439 -321.284363 156.318039</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_qKKz-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_qKKz">
@@ -11013,7 +11013,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_5IHt">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.572722 0.00157 -0.001097 0.819747</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">622.524048 -352.487183 177.471634</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">622.524048 -352.487183 170.471634</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_PjyB-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_PjyB">
@@ -11113,7 +11113,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_LrWY">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.868294 0.004211 -0.007372 0.495977</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">616.802795 -343.659363 178.351791</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">616.802795 -343.659363 171.351791</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_wNZs-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_wNZs">
@@ -11213,7 +11213,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_pMbM">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.2589 -0.005249 -0.001407 -0.965889</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">363.117188 -284.544373 174.201477</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">363.117188 -284.544373 155.201477</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_ZBLJ-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_ZBLJ">
@@ -11233,7 +11233,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_mErT">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.668585 -0.007894 -0.007098 -0.74356</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">365.918427 -284.117493 173.92421</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">365.918427 -284.117493 164.92421</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_fRYa-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_fRYa">
@@ -11253,7 +11253,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_HKsy">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.32886 -0.014373 -0.005006 -0.944256</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">355.189362 -285.436859 175.295151</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">355.189362 -285.436859 159.295151</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_qQ4r-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_qQ4r">
@@ -11273,7 +11273,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_c8Xo">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.33723 -0.042663 -0.0153 -0.940331</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">358.313751 -280.656555 174.149918</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">358.313751 -280.656555 156.149918</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_ZFaO-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_ZFaO">
@@ -11293,7 +11293,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_fvTd">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.480498 -0.027046 -0.014827 -0.876453</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">359.77124 -285.410614 174.697113</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">359.77124 -285.410614 156.697113</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_oKVg-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_oKVg">
@@ -11313,7 +11313,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_na1e">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.363792 -0.029305 -0.011452 -0.930949</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">358.30249 -281.483429 174.301956</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">358.30249 -281.483429 152.301956</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_sH05-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_sH05">
@@ -11333,7 +11333,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_B88A">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.373694 -0.027964 -0.011272 -0.927062</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">379.463745 -290.815002 172.186249</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">379.463745 -290.815002 153.186249</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_eAaO-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_eAaO">
@@ -11353,7 +11353,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_mFTY">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.984297 0.005265 -0.029799 0.17391</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">367.225006 -283.959381 173.864838</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">367.225006 -283.959381 153.864838</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_IU6c-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_IU6c">
@@ -11373,7 +11373,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_Kovy">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.338586 -0.042379 -0.015267 -0.939857</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">395.697174 -263.222809 158.464905</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">395.697174 -263.222809 144.464905</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_3jbt-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_3jbt">
@@ -11413,7 +11413,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_LHY2">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.810324 0.012276 -0.016987 0.585607</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">404.035309 -261.103119 157.625702</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">404.035309 -261.103119 144.625702</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_wLUQ-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_wLUQ">
@@ -11493,7 +11493,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_5zXz">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.633718 -0.01602 -0.013129 -0.773287</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">400.940918 -263.255005 157.624451</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">400.940918 -263.255005 144.624451</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_WgLc-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_WgLc">
@@ -11513,7 +11513,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_5CTh">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.490005 -0.009033 -0.005078 -0.871658</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">398.693756 -260.048126 157.811401</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">398.693756 -260.048126 144.811401</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_qTZy-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_qTZy">
@@ -11533,7 +11533,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_RiiY">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.029651 -0.035 -0.001039 -0.998947</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">403.23468 -252.686554 157.20578</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">403.23468 -252.686554 143.20578</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_70QD-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_70QD">
@@ -11553,7 +11553,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_mIgW">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.311092 -0.032788 -0.01074 -0.949753</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">395.058441 -252.934052 158.177414</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">395.058441 -252.934052 143.177414</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_5IHf-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_5IHf">
@@ -11573,7 +11573,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_3JUt">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">-0.11341 -0.011434 0.001305 -0.993482</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">395.664673 -254.716248 158.136322</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">395.664673 -254.716248 144.136322</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_Jrji-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_Jrji">
@@ -11633,7 +11633,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_Jjik">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">-0.195026 -0.014972 0.002977 -0.980679</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">617.397827 -365.670929 178.821945</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">617.397827 -365.670929 173.821945</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_8U4r-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_8U4r">
@@ -11893,7 +11893,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_LLRv">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.068414 -0.032279 -0.002215 -0.997132</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">622.734375 -369.784668 178.44812</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">622.734375 -369.784668 173.44812</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_Xs0I-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_Xs0I">
@@ -15553,7 +15553,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_UydF">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.999501 0.000473 -0.02567 0.018401</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">600.102173 186.65094 129.719131</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">600.102173 186.65094 135.719131</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_0WRv-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_0WRv">
@@ -15653,7 +15653,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_T0uU">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">-0.178931 -0.011708 0.00213 -0.98379</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">590.626221 173.838745 128.160782</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">590.626221 173.838745 133.160782</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_Hi4E-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_Hi4E">
@@ -15673,7 +15673,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_6tmi">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.880722 -0.011081 -0.020631 -0.473055</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">593.688416 199.761246 133.271637</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">593.688416 199.761246 141.271637</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_pnYj-->
 	<!--owl:NamedIndividual rdf:about="&log;PineTree_pnYj">
@@ -15833,7 +15833,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_6kbF">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">-0.198318 -0.014557 0.002946 -0.980025</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">558.774658 222.467346 139.965546</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">558.774658 222.467346 145.965546</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_ISlv-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_ISlv">
@@ -15873,7 +15873,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_pxJv">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.995628 0.003299 -0.038656 0.084972</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">552.599365 247.574677 149.713364</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">552.599365 247.574677 156.713364</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_5Uy1-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_5Uy1">
@@ -18313,7 +18313,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_ZePB">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.958433 -0.009514 -0.032183 -0.283337</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">-87.979057 151.944534 163.986252</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">-87.979057 151.944534 154.986252</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_b7eV-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_b7eV">
@@ -19573,7 +19573,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_RX5b">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.876913 -0.012617 -0.023053 -0.47993</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">428.742798 -164.0625 115.648666</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">428.742798 -164.0625 108.648666</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_snKU-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_snKU">
@@ -19613,7 +19613,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_rHmY">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.570895 0.015191 -0.010566 0.820814</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">429.777496 -157.639374 110.584373</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">429.777496 -157.639374 101.584373</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_l5N2-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_l5N2">
@@ -19913,7 +19913,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_ss3W">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.196727 -0.012168 -0.002442 -0.98038</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">-194.43515 163.254684 184.082962</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">-194.43515 163.254684 190.082962</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_Vhho-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_Vhho">
@@ -20613,7 +20613,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_IDB8">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.812871 -0.016277 -0.022743 -0.581772</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">-83.307968 74.605309 180.216949</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">-83.307968 74.605309 188.216949</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_d9hG-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_d9hG">
@@ -21313,7 +21313,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_ENl0">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.984766 0.007947 -0.046784 0.167282</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">-31.82328 52.87125 186.919373</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">-31.82328 52.87125 191.919373</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_7zze-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_7zze">
@@ -21333,7 +21333,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_4Zjl">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.783375 -0.024959 -0.031523 -0.620248</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">-25.274374 45.116093 186.974213</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">-25.274374 45.116093 192.974213</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_z2tt-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_z2tt">
@@ -21393,7 +21393,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_0c7c">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.872487 0.015835 -0.028337 0.487558</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">-28.85203 56.314373 186.746017</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">-28.85203 56.314373 192.746017</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_JiO9-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_JiO9">
@@ -21733,7 +21733,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_V8QM">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.144986 -0.034629 -0.005077 -0.988815</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">-67.082657 61.013435 183.686554</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">-67.082657 61.013435 191.686554</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_b5Ch-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_b5Ch">
@@ -26833,7 +26833,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_OIeL">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.802077 -0.015248 -0.020497 -0.596674</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">761.783752 -213.412811 111.214684</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">761.783752 -213.412811 118.214684</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_Itol-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_Itol">
@@ -29733,7 +29733,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_HpbD">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.16307 -0.006854 -0.001133 -0.98659</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">71.123436 361.212494 164.28038</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">71.123436 361.212494 171.28038</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_VIX3-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_VIX3">
@@ -31033,7 +31033,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_zuqG">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.994146 -0.003789 -0.037154 -0.101384</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">759.189331 -202.015305 110.866249</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">759.189331 -202.015305 117.866249</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_kCbW-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_kCbW">
@@ -31393,7 +31393,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_dbm5">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.885679 -0.018 -0.034456 -0.462668</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">786.756836 -217.724686 112.344841</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">786.756836 -217.724686 119.344841</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_Bi3v-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_Bi3v">
@@ -31413,7 +31413,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_pNv8">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.942006 -0.014162 -0.040073 -0.332895</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">782.626831 -224.431244 112.423904</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">782.626831 -224.431244 118.423904</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_4waC-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_4waC">
@@ -34033,7 +34033,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_fLqA">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.73781 0.025904 -0.02836 0.673915</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">557.627502 -367.835236 163.771713</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">557.627502 -367.835236 169.771713</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object PineTree_CqEB-->
 	<owl:NamedIndividual rdf:about="&log;PineTree_CqEB">
@@ -37513,7 +37513,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_Gh9A">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">-0.096539 -0.00918 0.00089 -0.995287</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">-297.831238 765.157166 211.346085</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">-297.831238 765.157166 195.346085</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_Ik2c-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_Ik2c">
@@ -37533,7 +37533,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_Lywr">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.85424 -0.012791 -0.021042 -0.519295</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">-297.342499 758.707153 211.127258</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">-297.342499 758.707153 195.127258</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_AC5p-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_AC5p">
@@ -37733,7 +37733,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_zyfm">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.321336 -0.014503 -0.004922 -0.946842</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">-306.507019 -53.013123 236.894455</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">-306.507019 -53.013123 222.894455</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_z9wF-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_z9wF">
@@ -37773,7 +37773,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_S9ez">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">-0.290427 -0.006007 0.001823 -0.956877</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">-309.697327 -33.569687 236.680847</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">-309.697327 -33.569687 223.680847</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_mSCr-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_mSCr">
@@ -37793,7 +37793,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_8LxU">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.874137 -0.010639 -0.019169 -0.485185</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">-313.514374 -29.319687 236.489441</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">-313.514374 -29.319687 216.489441</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_3Mb1-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_3Mb1">
@@ -37933,7 +37933,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_B7Yn">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.168059 -0.017353 -0.002959 -0.98562</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">206.810623 -847.154358 250.299683</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">206.810623 -847.154358 235.299683</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_QrUa-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_QrUa">
@@ -37973,7 +37973,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_EgAO">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.648492 0.019902 -0.016965 0.760773</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">196.115311 -835.78717 250.305847</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">196.115311 -835.78717 225.305847</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_mvBC-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_mvBC">
@@ -37993,7 +37993,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_jEwQ">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.090764 -0.033327 -0.003039 -0.99531</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">189.762802 -834.544373 250.089447</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">189.762802 -834.544373 225.089447</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_Z0U9-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_Z0U9">
@@ -39093,7 +39093,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_zFNk">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.999622 0.000094 -0.027283 0.00345</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">1019.309326 -1115.609375 216.051163</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">1019.309326 -1115.609375 219.051163</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_4zG9-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_4zG9">
@@ -39173,7 +39173,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_7WXZ">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.43641 -0.036875 -0.017904 -0.898814</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">1003.328125 -1093.01001 214.914764</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">1003.328125 -1093.01001 216.914764</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_CR7h-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_CR7h">
@@ -39373,7 +39373,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_Mvk8">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.997724 0.002126 -0.03819 0.055539</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">1197.363159 -1147.849365 228.231247</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">1197.363159 -1147.849365 223.231247</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_SAjN-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_SAjN">
@@ -39393,7 +39393,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_dEoR">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">-0.36705 -0.025208 0.009951 -0.929806</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">1192.594604 -1141.607788 227.697815</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">1192.594604 -1141.607788 223.697815</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_C9ro-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_C9ro">
@@ -39413,7 +39413,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_NsYf">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.748799 -0.02295 -0.025963 -0.661891</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">1198.833984 -1135.701904 228.165619</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">1198.833984 -1135.701904 227.165619</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_lWAC-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_lWAC">
@@ -39433,7 +39433,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_pIYd">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">-0.053207 -0.032236 0.001719 -0.998062</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">1207.788086 -1129.476807 228.988037</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">1207.788086 -1129.476807 227.988037</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_faVo-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_faVo">
@@ -39493,7 +39493,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_eMGe">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">-0.102051 -0.021859 0.002243 -0.994536</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">1221.371216 -1152.581543 230.36116</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">1221.371216 -1152.581543 235.36116</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_a6tQ-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_a6tQ">
@@ -39513,7 +39513,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_D2Xt">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.613231 0.033152 -0.025774 0.788787</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">1217.814941 -1146.407471 230.026947</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">1217.814941 -1146.407471 235.026947</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_CFm0-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_CFm0">
@@ -39533,7 +39533,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_1bKf">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.901821 -0.002825 -0.005896 -0.432061</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">1063.205933 -1202.665649 217.766174</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">1063.205933 -1202.665649 229.766174</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_VQMY-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_VQMY">
@@ -39573,7 +39573,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_9NWZ">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.267858 -0.01133 -0.00315 -0.963387</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">1052.931885 -1172.726807 217.697189</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">1052.931885 -1172.726807 222.697189</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_pmVC-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_pmVC">
@@ -39593,7 +39593,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_EUpT">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.788386 0.025055 -0.03218 0.613828</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">1055.298706 -1177.153442 217.756866</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">1055.298706 -1177.153442 222.756866</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_LdQm-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_LdQm">
@@ -39613,7 +39613,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_xve1">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">-0.299146 -0.022193 0.00696 -0.953924</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">986.632813 -1123.031494 215.044525</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">986.632813 -1123.031494 220.044525</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_fP4z-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_fP4z">
@@ -39633,7 +39633,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_RTM9">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">-0.274701 -0.005827 0.001665 -0.961511</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">993.320313 -1122.67688 215.23851</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">993.320313 -1122.67688 220.23851</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_oFjj-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_oFjj">
@@ -39653,7 +39653,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_8eFM">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.615571 0.005783 -0.004517 0.788048</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">996.757507 -1129.383057 215.401642</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">996.757507 -1129.383057 223.401642</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_qsm1-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_qsm1">
@@ -39673,7 +39673,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_Q0vY">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.699511 0.004412 -0.004318 0.714595</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">991.684021 -1135.342773 215.22554</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">991.684021 -1135.342773 220.22554</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_Ps2S-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_Ps2S">
@@ -39693,7 +39693,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_0Xzo">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.893525 -0.009717 -0.019359 -0.448491</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">995.376831 -1142.008057 215.491867</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">995.376831 -1142.008057 225.491867</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_qFwr-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_qFwr">
@@ -39713,7 +39713,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_YQ7S">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.811103 -0.003791 -0.005257 -0.584868</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">989.700317 -1098.226807 214.604919</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">989.700317 -1098.226807 217.604919</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_wm4q-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_wm4q">
@@ -39753,7 +39753,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_HpJK">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.996118 -0.001623 -0.018807 -0.085976</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">980.372498 -1103.68689 214.706482</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">980.372498 -1103.68689 218.706482</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_xG5L-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_xG5L">
@@ -43733,7 +43733,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_cl4k">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">-0.032628 -0.02819 0.000921 -0.99907</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">73.895309 -658.107483 217.237961</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">73.895309 -658.107483 204.237961</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_P1eR-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_P1eR">
@@ -43753,7 +43753,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_gIue">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.746179 -0.019874 -0.022298 -0.665075</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">88.397186 -644.838135 218.781403</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">88.397186 -644.838135 204.781403</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_pZpy-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_pZpy">
@@ -43773,7 +43773,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_lLKU">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.862275 0.020677 -0.035321 0.504785</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">90.370308 -663.747498 217.989609</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">90.370308 -663.747498 204.989609</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_Ga2q-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_Ga2q">
@@ -43793,7 +43793,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_Etgx">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.26807 -0.034915 -0.009722 -0.962717</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">85.086563 -661.023132 218.131561</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">85.086563 -661.023132 204.131561</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_GmkL-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_GmkL">
@@ -44393,7 +44393,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_sUD2">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.269743 -0.033733 -0.009456 -0.962295</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">1091.667114 -1140.236206 220.032257</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">1091.667114 -1140.236206 222.032257</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_r3yw-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_r3yw">
@@ -44413,7 +44413,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_aPu5">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.815025 -0.001163 -0.001636 -0.579422</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">1074.553101 -1145.497803 219.037735</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">1074.553101 -1145.497803 221.037735</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_7dWn-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_7dWn">
@@ -44433,7 +44433,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_RpX2">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.850098 -0.021969 -0.035575 -0.524962</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">1052.837524 -1113.525024 217.446014</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">1052.837524 -1113.525024 218.946014</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_jK3F-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_jK3F">
@@ -45073,7 +45073,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_oqQ3">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">-0.031278 -0.036818 0.001153 -0.998832</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">-296.690765 -78.524689 238.682495</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">-296.690765 -78.524689 224.682495</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_CCLh-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_CCLh">
@@ -45093,7 +45093,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_K0WV">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.982464 -0.000424 -0.002232 -0.186436</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">-301.091705 -68.348434 237.613983</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">-301.091705 -68.348434 223.613983</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_QPqZ-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_QPqZ">
@@ -45113,7 +45113,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_za0S">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.875947 -0.018158 -0.033072 -0.480929</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">-295.056702 -65.767189 237.724762</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">-295.056702 -65.767189 223.724762</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_lSZC-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_lSZC">
@@ -45133,7 +45133,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_Oszg">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.052935 -0.021329 -0.001131 -0.99837</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">-295.025604 -38.959999 237.036713</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">-295.025604 -38.959999 223.036713</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_ZxU6-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_ZxU6">
@@ -45153,7 +45153,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_HQhV">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.921599 -0.016807 -0.040159 -0.385693</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">-315.853577 -87.196564 237.541168</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">-315.853577 -87.196564 223.541168</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_Hj3c-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_Hj3c">
@@ -45173,7 +45173,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_5eZb">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.907863 -0.011436 -0.024815 -0.418376</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">-291.418427 -97.345932 234.874298</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">-291.418427 -97.345932 220.874298</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_JWIl-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_JWIl">
@@ -48153,7 +48153,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_Qmw7">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.623969 -0.015367 -0.012274 -0.781202</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">991.798401 -1107.456787 214.900452</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">991.798401 -1107.456787 217.900452</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_vCty-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_vCty">
@@ -48173,7 +48173,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_fqj8">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">-0.238199 -0.026469 0.006494 -0.970834</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">998.409607 -1119.069214 215.307495</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">998.409607 -1119.069214 219.307495</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_Mamu-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_Mamu">
@@ -48193,7 +48193,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_6hI0">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.976018 0.00544 -0.024555 0.216231</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">979.093445 -1110.984985 214.932693</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">979.093445 -1110.984985 218.932693</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_ylwZ-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_ylwZ">
@@ -48213,7 +48213,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_kPAI">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.888951 -0.018168 -0.035397 -0.456271</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">977.396667 -1122.148071 215.411896</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">977.396667 -1122.148071 220.411896</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_DVQd-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_DVQd">
@@ -48233,7 +48233,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_N7tm">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.48082 -0.022524 -0.012357 -0.876443</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">999.075195 -1105.471802 215.148682</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">999.075195 -1105.471802 217.148682</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_sH7Y-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_sH7Y">
@@ -48253,7 +48253,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_8kV0">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.534241 0.002783 -0.001759 0.845326</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">997.701294 -1093.909912 214.806335</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">997.701294 -1093.909912 216.806335</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_Rjnd-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_Rjnd">
@@ -48293,7 +48293,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_ntim">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.413963 -0.031878 -0.014508 -0.90962</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">971.840515 -1126.629272 215.763947</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">971.840515 -1126.629272 225.763947</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_uj2F-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_uj2F">
@@ -48313,7 +48313,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_qX6d">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.999996 0.000004 -0.001591 0.002205</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">986.155579 -1131.962036 215.006577</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">986.155579 -1131.962036 225.006577</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_aqJD-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_aqJD">
@@ -48333,7 +48333,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_o1ww">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.476184 -0.016166 -0.008756 -0.879153</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">1004.544617 -1110.686279 215.424606</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">1004.544617 -1110.686279 218.424606</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_zVWo-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_zVWo">
@@ -48353,7 +48353,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_3vqx">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">-0.377047 -0.008592 0.003498 -0.926148</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">986.547729 -1139.074951 215.109802</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">986.547729 -1139.074951 225.109802</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_JhOI-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_JhOI">
@@ -48373,7 +48373,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_EX88">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.372615 -0.003584 -0.001439 -0.927978</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">998.613892 -1134.220337 215.555283</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">998.613892 -1134.220337 225.555283</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_0L0S-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_0L0S">
@@ -48393,7 +48393,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_0iiH">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.398328 -0.035388 -0.015381 -0.916431</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">1007.200317 -1123.631104 215.709274</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">1007.200317 -1123.631104 223.709274</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_tTAa-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_tTAa">
@@ -48573,7 +48573,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_sUTt">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.96892 0.009814 -0.038956 0.244092</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">1403.768677 -1226.447754 251.62912</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">1403.768677 -1226.447754 246.62912</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_gHfs-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_gHfs">
@@ -48593,7 +48593,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_kJxu">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.768591 -0.020011 -0.02407 -0.638974</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">1431.222046 -1229.276489 253.851746</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">1431.222046 -1229.276489 248.851746</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_dze8-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_dze8">
@@ -48613,7 +48613,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_X3AG">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">-0.458814 -0.029199 0.015088 -0.887924</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">1415.594482 -1273.681763 254.807022</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">1415.594482 -1273.681763 249.807022</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_Pred-->
 	<owl:NamedIndividual rdf:about="&log;SnowTree_Pred">
@@ -48633,7 +48633,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_U7WK">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.990407 0.004408 -0.032524 0.134228</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">1484.943359 -1235.318848 257.568451</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">1484.943359 -1235.318848 265.568451</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object SnowTree_nELY-->
 	<!--owl:NamedIndividual rdf:about="&log;SnowTree_nELY">
@@ -51281,7 +51281,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_mam9">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 -0.2 0.0 1.0</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">563.0 -352.035004 165.357498</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">563.0 -352.035004 166.357498</knowrob:translation>
 	</owl:NamedIndividual>
 	<!--Foliage object RoadSegment_test001-->
 	<owl:NamedIndividual rdf:about="&log;RoadSegment_test001">
@@ -52443,8 +52443,8 @@
   <!--Ground-->
         <owl:NamedIndividual rdf:about="&log;Mountain_TK89C">
 		<rdf:type rdf:resource="&knowrob;Mountain"/>
-		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/ground.dae</knowrob:pathToCadModel>
-                <srdl2-comp:mesh_scale rdf:datatype="&xsd;string">46 46 46</srdl2-comp:mesh_scale>
+		<knowrob:pathToCadModel rdf:datatype="&xsd;string">package://sim/unreal_meshes/untitled.dae</knowrob:pathToCadModel>
+                <!--srdl2-comp:mesh_scale rdf:datatype="&xsd;string">5 5 5</srdl2-comp:mesh_scale-->
 		<knowrob:depthOfObject rdf:datatype="&xsd;double">0.1</knowrob:depthOfObject>
 		<knowrob:widthOfObject rdf:datatype="&xsd;double">0.1</knowrob:widthOfObject>
 		<knowrob:heightOfObject rdf:datatype="&xsd;double">0.0</knowrob:heightOfObject>
@@ -52458,9 +52458,8 @@
 	</owl:NamedIndividual>
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_Ak99">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
-<!-- 0.70711 0.70711 -->
 		<knowrob:quaternion rdf:datatype="&xsd;string">1.0 0.0 0.0 0.0</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">0 -100 -180</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">750 -120 75</knowrob:translation>
 	</owl:NamedIndividual>
 
 
