@@ -912,12 +912,12 @@
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#FlyingRobot"/>
 	<rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#TeamMate"/>
         <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#QuadCopter"/>
-        <rdfs:subClassOf>
+        <!--rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://knowrob.org/kb/srdl2-cap.owl#hasCapability"/>
                 <owl:someValuesFrom rdf:resource="http://knowrob.org/kb/srdl2-cap.owl#DigitalCommunicationCapability"/>
             </owl:Restriction>
-        </rdfs:subClassOf>
+        </rdfs:subClassOf-->
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://knowrob.org/kb/srdl2-cap.owl#hasCapability"/>

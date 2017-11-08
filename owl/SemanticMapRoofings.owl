@@ -261,7 +261,7 @@
 	<owl:NamedIndividual rdf:about="&u-map;Transformation_ABAA">
 		<rdf:type rdf:resource="&knowrob;Transformation"/>
 		<knowrob:quaternion rdf:datatype="&xsd;string">0.766043 0.0 0.0 -0.642789</knowrob:quaternion>
-		<knowrob:translation rdf:datatype="&xsd;string">590.349976 -295.0 184.599991</knowrob:translation>
+		<knowrob:translation rdf:datatype="&xsd;string">590.349976 -295.0 178.599991</knowrob:translation>
 	</owl:NamedIndividual>
 
 

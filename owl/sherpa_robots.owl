@@ -564,7 +564,7 @@
         <srdl2-comp:succeedingLink rdf:resource="http://knowrob.org/kb/knowrob.owl#SherpaWaspBlue_ILQN_baselink"/>
         <knowrob:depthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.509687</knowrob:depthOfObject>
         <knowrob:heightOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16</knowrob:heightOfObject>
-        <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://sim/unrealmeshes/Robots/BlueWasp.dae</knowrob:pathToCadModel>
+        <knowrob:pathToCadModel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">package://sim/unreal_meshes/Robots/BlueWasp.dae</knowrob:pathToCadModel>
         <knowrob:widthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.509687</knowrob:widthOfObject>
         <knowrob:nominalFlightAltitude rdf:datatype="http://qudt.org/vocab/unit#Meter">20.0</knowrob:nominalFlightAltitude>
     </owl:NamedIndividual>
